@@ -1,0 +1,22 @@
+[
+  {
+    "seed": "http-independent-401",
+    "half": 1,
+    "seconds": 1.301580165978521
+  },
+  {
+    "seed": "http-independent-401",
+    "half": 2,
+    "seconds": 1.1486380000133067
+  },
+  {
+    "seed": "http-independent-402",
+    "half": 1,
+    "seconds": 1.0937797499354929
+  },
+  {
+    "seed": "http-independent-402",
+    "half": 2,
+    "seconds": 1.1481988339219242
+  }
+]

@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:5038 ...
+waiting for agent2 at http://localhost:5039 ...
+agent1 = quad-j / jish_new (http://localhost:5038)  (seat 0)
+agent2 = Challenges Team / CallingStation (http://localhost:5039)  (seat 1)
+
+Half 1: 1000 deals, seed release-http-403
+Chips: agent1 +11231 (+5.615 bb/deal), agent2 -11231
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.64s of 8s (wall 3.77s), calls 3987, errors 0
+  agent2: thinking 0.00s of 8s (wall 1.05s), calls 4728, errors 0
+Speed: 1000 hands in 4.98s (201 hands/s)
+RESULT: HALF_DONE

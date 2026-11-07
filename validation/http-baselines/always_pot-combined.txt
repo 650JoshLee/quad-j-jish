@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_new (http://localhost:5038)
+agent2 = Challenges Team / AlwaysPot (http://localhost:5039)
+
+Duplicate match: 1000 deals (2000 hands), seed release-http-403
+agent1: +3.642 bb/deal  (std 27.74, stderr 0.877)
+Confidence interval (z=1.96): [+1.923, +5.361] bb/deal
+Reason: interval [+1.923, +5.361] is entirely above 0
+half1: agent1 +3078 chips, agent2 -3078 chips
+half2: agent1 +4206 chips, agent2 -4206 chips
+Faults:
+  agent1 half1: thinking 0.01s of 8s (wall 0.78s), calls 2240, errors 0
+  agent1 half2: thinking 0.02s of 8s (wall 0.81s), calls 2278, errors 0
+  agent2 half1: thinking 0.00s of 8s (wall 0.33s), calls 1813, errors 0
+  agent2 half2: thinking 0.00s of 8s (wall 0.36s), calls 1861, errors 0
+Speed: 2000 hands in 2.45s (816 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_new (http://localhost:5038))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN
