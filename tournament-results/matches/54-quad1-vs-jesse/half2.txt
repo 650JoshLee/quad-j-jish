@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:15608 ...
+waiting for agent2 at http://localhost:15609 ...
+agent1 = YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15608)  (seat 1)
+agent2 = Jesse Park (adapter) / Flush Theory (http://localhost:15609)  (seat 0)
+
+Half 2: 1000 deals, seed jish5-final-holdout-20261107
+Chips: agent1 +2936 (+1.468 bb/deal), agent2 -2936
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.25s of 8s (wall 2.26s), calls 2597, errors 0
+  agent2: thinking 1.30s of 8s (wall 3.17s), calls 2815, errors 0
+Speed: 1000 hands in 5.54s (181 hands/s)
+RESULT: HALF_DONE

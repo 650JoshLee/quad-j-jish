@@ -1,0 +1,17 @@
+{
+  "selected": "conservative",
+  "settings": {
+    "value_margin": 0.045,
+    "future_tax": 0.18,
+    "induce": 0.3,
+    "range_power": 0.95
+  },
+  "reason": "Highest mean against the six nontrivial opponents in the broad independent validation field, confirming the initial development ranking. More cautious and wider-defense follow-ups did not establish a general improvement.",
+  "training_trials": 163823616,
+  "initial_search_hands": 48000,
+  "independent_validation_hands": 48000,
+  "robust_followup_hands": 24000,
+  "final_seed": "jish5-final-holdout-20261107",
+  "final_seed_used_for_selection": false,
+  "agent_sha256": "e393417c467dd98b7504f030a70817804af1ff6df69ef98f0548c9a6f181554d"
+}

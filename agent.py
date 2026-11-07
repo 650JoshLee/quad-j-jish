@@ -14,7 +14,7 @@ Check that the tournament can run it:
     python -m pytest -q              # tests in test_agent.py
     ./tools/check_build.sh           # builds and smoke-tests it like the tournament
 
-Team: quad-j. Bot: jish_new.
+Team: quad-j. Bot: jish_4.
 Strategy: precomputed preflop equity, compiled Monte Carlo evaluation,
 opponent range inference, learned interpretation of checks, and half-local
 adaptation. See BOT_NOTES.md.
@@ -41,7 +41,7 @@ warmup()
 
 # Tournament identity
 PARTICIPANT = "quad-j"
-AGENT_NAME = "jish_new"
+AGENT_NAME = "jish_4"
 
 
 # ===== YOUR CODE HERE =====
@@ -385,7 +385,9 @@ def _decide(obs, memory):
         if st < 3:
             ev -= call_prob * invest * max(0.0, 0.62 - eq_called) * (0.70 if spr > 1 else 0.25)
         margin = max(0.35, obs.pot * (0.035 if st < 3 else 0.018))
-        if ev > best_ev + margin:
+        # Apply the uncertainty margin against calling once, then rank
+        # qualifying raises by their estimated value, independent of order.
+        if ev > base_ev + margin and ev > best_ev:
             best_action, best_ev = action, ev
     return best_action
 

@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_3 (http://localhost:15610)
+agent2 = Jesse Park (adapter) / Flush Theory (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: +3.147 bb/deal  (std 15.61, stderr 0.494)
+Confidence interval (z=1.96): [+2.179, +4.115] bb/deal
+Reason: interval [+2.179, +4.115] is entirely above 0
+half1: agent1 +2848 chips, agent2 -2848 chips
+half2: agent1 +3446 chips, agent2 -3446 chips
+Faults:
+  agent1 half1: thinking 2.42s of 8s (wall 4.10s), calls 2235, errors 0
+  agent1 half2: thinking 2.29s of 8s (wall 3.91s), calls 2197, errors 0
+  agent2 half1: thinking 1.33s of 8s (wall 3.02s), calls 2673, errors 0
+  agent2 half2: thinking 1.28s of 8s (wall 2.94s), calls 2658, errors 0
+Speed: 2000 hands in 14.24s (140 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_3 (http://localhost:15610))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

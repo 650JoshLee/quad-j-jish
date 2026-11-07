@@ -1,0 +1,21 @@
+agent1 = YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15608)
+agent2 = Jesse Park (adapter) / Flush Theory (http://localhost:15609)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: +2.950 bb/deal  (std 12.53, stderr 0.396)
+Confidence interval (z=1.96): [+2.174, +3.726] bb/deal
+Reason: interval [+2.174, +3.726] is entirely above 0
+half1: agent1 +2964 chips, agent2 -2964 chips
+half2: agent1 +2936 chips, agent2 -2936 chips
+Faults:
+  agent1 half1: thinking 0.25s of 8s (wall 2.23s), calls 2561, errors 0
+  agent1 half2: thinking 0.25s of 8s (wall 2.26s), calls 2597, errors 0
+  agent2 half1: thinking 1.28s of 8s (wall 3.11s), calls 2743, errors 0
+  agent2 half2: thinking 1.30s of 8s (wall 3.17s), calls 2815, errors 0
+Speed: 2000 hands in 10.99s (182 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15608))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

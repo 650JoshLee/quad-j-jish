@@ -1,0 +1,21 @@
+agent1 = YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15610)
+agent2 = YOUR_REGISTERED_TEAM_NAME / Maroon Equity (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: +0.194 bb/deal  (std 6.42, stderr 0.203)
+Confidence interval (z=1.96): [-0.205, +0.592] bb/deal
+Reason: interval [-0.205, +0.592] includes 0
+half1: agent1 +134 chips, agent2 -134 chips
+half2: agent1 +253 chips, agent2 -253 chips
+Faults:
+  agent1 half1: thinking 0.26s of 8s (wall 2.70s), calls 3307, errors 0
+  agent1 half2: thinking 0.21s of 8s (wall 2.56s), calls 3265, errors 0
+  agent2 half1: thinking 0.34s of 8s (wall 3.19s), calls 3169, errors 0
+  agent2 half2: thinking 0.30s of 8s (wall 3.15s), calls 3244, errors 0
+Speed: 2000 hands in 11.84s (169 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

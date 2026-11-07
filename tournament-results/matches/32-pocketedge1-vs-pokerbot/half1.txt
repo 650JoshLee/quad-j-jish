@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:15608 ...
+waiting for agent2 at http://localhost:15609 ...
+agent1 = Datathon2026 / PocketEdge v2 (http://localhost:15608)  (seat 0)
+agent2 = TeamName / TitForTatBot (http://localhost:15609)  (seat 1)
+
+Half 1: 1000 deals, seed jish5-final-holdout-20261107
+Chips: agent1 +1185 (+0.593 bb/deal), agent2 -1185
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.02s of 8s (wall 1.80s), calls 2844, errors 0
+  agent2: thinking 3.67s of 8s (wall 5.68s), calls 2859, errors 0
+Speed: 1000 hands in 7.63s (131 hands/s)
+RESULT: HALF_DONE

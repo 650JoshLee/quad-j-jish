@@ -1,0 +1,21 @@
+agent1 = YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15628)
+agent2 = quad-j / jish_5 (http://localhost:15629)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: -0.103 bb/deal  (std 8.67, stderr 0.274)
+Confidence interval (z=1.96): [-0.640, +0.434] bb/deal
+Reason: interval [-0.640, +0.434] includes 0
+half1: agent1 +312 chips, agent2 -312 chips
+half2: agent1 -518 chips, agent2 +518 chips
+Faults:
+  agent1 half1: thinking 0.55s of 8s (wall 3.36s), calls 3487, errors 0
+  agent1 half2: thinking 0.58s of 8s (wall 3.44s), calls 3520, errors 0
+  agent2 half1: thinking 2.09s of 8s (wall 5.16s), calls 3119, errors 0
+  agent2 half2: thinking 2.12s of 8s (wall 5.23s), calls 3153, errors 0
+Speed: 2000 hands in 17.53s (114 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

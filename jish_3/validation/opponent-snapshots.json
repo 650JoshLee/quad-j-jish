@@ -1,0 +1,21 @@
+[
+  {
+    "label": "quad",
+    "files": {
+      "agent.py": "a220cee851aa3d961a4755c519b3e81d3c5890acffc258554ccb9892c3d7866a"
+    }
+  },
+  {
+    "label": "pocketedge",
+    "files": {
+      "agent.py": "d7e915f7b89e36e1761867cd4211fa409c2da0d0f4a5a9e715c0d70c6e9dd119",
+      "native/equity-macos-arm64.dylib": "693a36939eaa0622966e59b3bc9892025d180e150dbcc57256288d88de19c505",
+      "native/equity.c": "3da6ab954dc6a51d18863e59787a8281f98b4cc231432acee54b768aef90048a",
+      "native_engine.py": "3c77163cef7e4fa73191195d5f4b60b81b644a6a9d4f047357a1a3a7cc10c2ba",
+      "preflop-model.json": "71a15cb55622a32ab7d11a373a03de8ab423ef1fe495d4b0257e910e44f14efb",
+      "preflop.py": "0188813570bdb0a0d4542aee6a5e669e3638c43900425d846cd3aa0678c65ef5",
+      "strategy.py": "67c2e704acf4f5032ccae277812d03622ec40fc61225a08a17c2be6635474c1b"
+    },
+    "native_build": "clang -O3 -dynamiclib -fno-builtin -fno-stack-protector native/equity.c -o native/equity-macos-arm64.dylib"
+  }
+]

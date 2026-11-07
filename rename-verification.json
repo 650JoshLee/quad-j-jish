@@ -1,0 +1,22 @@
+[
+  {
+    "bot": "jish_1",
+    "strategy_unchanged": true,
+    "model_files_unchanged": 1
+  },
+  {
+    "bot": "jish_2",
+    "strategy_unchanged": true,
+    "model_files_unchanged": 1
+  },
+  {
+    "bot": "jish_3",
+    "strategy_unchanged": true,
+    "model_files_unchanged": 2
+  },
+  {
+    "bot": "jish_4",
+    "strategy_unchanged": true,
+    "model_files_unchanged": 1
+  }
+]

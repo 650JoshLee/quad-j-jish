@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "quad1",
+    "seconds": 0.43345429096370935,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  },
+  {
+    "half": 1,
+    "id": "pokerbot2",
+    "seconds": 0.26927608414553106,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "quad1",
+    "seconds": 0.42675066692754626,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pokerbot2",
+    "seconds": 0.2715232919435948,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  }
+]

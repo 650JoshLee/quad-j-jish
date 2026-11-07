@@ -12,7 +12,7 @@ def main():
         for r in data:
             if 'hands_won' not in r:
                 parser.error('This benchmark report predates hand counts. Rerun the benchmark.')
-            print(f"{r['opponent']}: jish_new {r['hands_won']} wins; opponent {r['hands_lost']} wins; {r['hands_tied']} ties ({r['hands']} hands)")
+            print(f"{r['opponent']}: jish_4 {r['hands_won']} wins; opponent {r['hands_lost']} wins; {r['hands_tied']} ties ({r['hands']} hands)")
         return
     if data.get('kind')=='half_result':
         nets=data['nets_agent1']

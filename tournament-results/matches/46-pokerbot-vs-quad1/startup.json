@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "pokerbot",
+    "seconds": 0.2611087500117719,
+    "identity": {
+      "participant": "TeamName",
+      "agent_name": "TitForTatBot"
+    }
+  },
+  {
+    "half": 1,
+    "id": "quad1",
+    "seconds": 0.4321358329616487,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pokerbot",
+    "seconds": 0.3197672918904573,
+    "identity": {
+      "participant": "TeamName",
+      "agent_name": "TitForTatBot"
+    }
+  },
+  {
+    "half": 2,
+    "id": "quad1",
+    "seconds": 0.4183039590716362,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  }
+]

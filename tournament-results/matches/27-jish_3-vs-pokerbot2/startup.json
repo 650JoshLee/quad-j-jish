@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "jish_3",
+    "seconds": 2.284892707830295,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_3"
+    }
+  },
+  {
+    "half": 1,
+    "id": "pokerbot2",
+    "seconds": 0.3239916251040995,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "jish_3",
+    "seconds": 2.257318624993786,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_3"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pokerbot2",
+    "seconds": 0.26598845794796944,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  }
+]

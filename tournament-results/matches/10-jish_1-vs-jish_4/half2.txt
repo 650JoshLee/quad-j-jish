@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:15608 ...
+waiting for agent2 at http://localhost:15609 ...
+agent1 = quad-j / jish_1 (http://localhost:15608)  (seat 1)
+agent2 = quad-j / jish_4 (http://localhost:15609)  (seat 0)
+
+Half 2: 1000 deals, seed jish5-final-holdout-20261107
+Chips: agent1 -550 (-0.275 bb/deal), agent2 +550
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.33s of 8s (wall 2.40s), calls 3061, errors 0
+  agent2: thinking 0.35s of 8s (wall 2.37s), calls 2938, errors 0
+Speed: 1000 hands in 4.90s (204 hands/s)
+RESULT: HALF_DONE

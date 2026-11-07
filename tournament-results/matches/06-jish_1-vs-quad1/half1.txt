@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:15608 ...
+waiting for agent2 at http://localhost:15609 ...
+agent1 = quad-j / jish_1 (http://localhost:15608)  (seat 0)
+agent2 = YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15609)  (seat 1)
+
+Half 1: 1000 deals, seed jish5-final-holdout-20261107
+Chips: agent1 +414 (+0.207 bb/deal), agent2 -414
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.36s of 8s (wall 2.64s), calls 3197, errors 0
+  agent2: thinking 0.26s of 8s (wall 2.68s), calls 3322, errors 0
+Speed: 1000 hands in 5.44s (184 hands/s)
+RESULT: HALF_DONE

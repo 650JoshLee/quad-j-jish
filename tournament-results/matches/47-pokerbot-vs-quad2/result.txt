@@ -1,0 +1,21 @@
+agent1 = TeamName / TitForTatBot (http://localhost:15610)
+agent2 = Team-quad-j / AdaptiveProfit (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: -1.627 bb/deal  (std 9.12, stderr 0.288)
+Confidence interval (z=1.96): [-2.192, -1.061] bb/deal
+Reason: interval [-2.192, -1.061] is entirely below 0
+half1: agent1 -1651 chips, agent2 +1651 chips
+half2: agent1 -1602 chips, agent2 +1602 chips
+Faults:
+  agent1 half1: thinking 3.38s of 8s (wall 5.59s), calls 3157, errors 0
+  agent1 half2: thinking 3.38s of 8s (wall 5.55s), calls 3151, errors 0
+  agent2 half1: thinking 0.35s of 8s (wall 2.75s), calls 3090, errors 0
+  agent2 half2: thinking 0.27s of 8s (wall 2.59s), calls 3110, errors 0
+Speed: 2000 hands in 16.76s (119 hands/s)
+
+============================================================
+  VERDICT: AGENT2 WINS  (Team-quad-j / AdaptiveProfit (http://localhost:15611))
+  Points: agent1 0, agent2 1
+============================================================
+RESULT: AGENT2_WIN

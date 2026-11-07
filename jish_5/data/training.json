@@ -1,0 +1,11 @@
+{
+  "classes": 19998,
+  "samples_per_class": 8192,
+  "total_trials": 163823616,
+  "seed_formula": "20261107 + canonical_index * 982451653",
+  "elapsed_seconds": 48.02242525015026,
+  "mean": 0.4999861717224121,
+  "min": 0.09912109375,
+  "max": 0.70001220703125,
+  "method": "Fresh uniform legal deals, independent prime-product evaluator, suit-isomorphism expansion; no prior bot data reused"
+}

@@ -1,0 +1,21 @@
+agent1 = Datathon2026 / PocketEdge v2 (http://localhost:15610)
+agent2 = TeamName / TitForTatBot (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: +1.791 bb/deal  (std 10.02, stderr 0.317)
+Confidence interval (z=1.96): [+1.170, +2.412] bb/deal
+Reason: interval [+1.170, +2.412] is entirely above 0
+half1: agent1 +1774 chips, agent2 -1774 chips
+half2: agent1 +1808 chips, agent2 -1808 chips
+Faults:
+  agent1 half1: thinking 0.00s of 8s (wall 1.59s), calls 2848, errors 0
+  agent1 half2: thinking 0.01s of 8s (wall 1.54s), calls 2783, errors 0
+  agent2 half1: thinking 3.57s of 8s (wall 5.52s), calls 2840, errors 0
+  agent2 half2: thinking 3.57s of 8s (wall 5.51s), calls 2840, errors 0
+Speed: 2000 hands in 14.43s (139 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (Datathon2026 / PocketEdge v2 (http://localhost:15610))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

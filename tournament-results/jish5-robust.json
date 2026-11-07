@@ -1,0 +1,242 @@
+[
+  {
+    "variant": "patient",
+    "settings": {
+      "future_tax": 0.15,
+      "value_margin": 0.06,
+      "range_power": 0.7,
+      "induce": 0.45
+    },
+    "opponent": "tight",
+    "mean": -0.624,
+    "ci": [
+      -1.2789121509667414,
+      0.030912150966741492
+    ],
+    "seconds": [
+      2.839792181039229,
+      2.9747496626805514
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "patient",
+    "settings": {
+      "future_tax": 0.15,
+      "value_margin": 0.06,
+      "range_power": 0.7,
+      "induce": 0.45
+    },
+    "opponent": "pressure",
+    "mean": -0.323,
+    "ci": [
+      -1.2177406731482512,
+      0.571740673148251
+    ],
+    "seconds": [
+      3.8190958278719336,
+      3.759869530564174
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "patient",
+    "settings": {
+      "future_tax": 0.15,
+      "value_margin": 0.06,
+      "range_power": 0.7,
+      "induce": 0.45
+    },
+    "opponent": "polar",
+    "mean": 2.125,
+    "ci": [
+      1.2328951933847763,
+      3.0171048066152237
+    ],
+    "seconds": [
+      3.7390266438014805,
+      3.7841297313570976
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "patient",
+    "settings": {
+      "future_tax": 0.15,
+      "value_margin": 0.06,
+      "range_power": 0.7,
+      "induce": 0.45
+    },
+    "opponent": "jish_2",
+    "mean": -1.5895,
+    "ci": [
+      -2.4461630019573173,
+      -0.7328369980426827
+    ],
+    "seconds": [
+      3.043032336514443,
+      2.985243888106197
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "careful",
+    "settings": {
+      "future_tax": 0.24,
+      "value_margin": 0.08,
+      "range_power": 0.6,
+      "induce": 0.35
+    },
+    "opponent": "tight",
+    "mean": -0.6925,
+    "ci": [
+      -1.3732546636065168,
+      -0.011745336393483186
+    ],
+    "seconds": [
+      2.9195230826735497,
+      3.01239126524888
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "careful",
+    "settings": {
+      "future_tax": 0.24,
+      "value_margin": 0.08,
+      "range_power": 0.6,
+      "induce": 0.35
+    },
+    "opponent": "pressure",
+    "mean": -0.1795,
+    "ci": [
+      -1.0833611615103766,
+      0.7243611615103765
+    ],
+    "seconds": [
+      3.5043851581867784,
+      3.651200225111097
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "careful",
+    "settings": {
+      "future_tax": 0.24,
+      "value_margin": 0.08,
+      "range_power": 0.6,
+      "induce": 0.35
+    },
+    "opponent": "polar",
+    "mean": 1.895,
+    "ci": [
+      0.967238532973211,
+      2.822761467026789
+    ],
+    "seconds": [
+      4.089023449458182,
+      4.246541831176728
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "careful",
+    "settings": {
+      "future_tax": 0.24,
+      "value_margin": 0.08,
+      "range_power": 0.6,
+      "induce": 0.35
+    },
+    "opponent": "jish_2",
+    "mean": -1.1135,
+    "ci": [
+      -1.924091893844718,
+      -0.30290810615528174
+    ],
+    "seconds": [
+      2.9265134977176785,
+      2.965218113269657
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "wide_defense",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.05,
+      "range_power": 0.25,
+      "induce": 0.3
+    },
+    "opponent": "tight",
+    "mean": -2.0845,
+    "ci": [
+      -2.9447820693554263,
+      -1.2242179306445733
+    ],
+    "seconds": [
+      3.1254463642835617,
+      3.274955782806501
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "wide_defense",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.05,
+      "range_power": 0.25,
+      "induce": 0.3
+    },
+    "opponent": "pressure",
+    "mean": -0.729,
+    "ci": [
+      -1.6493354105554792,
+      0.1913354105554792
+    ],
+    "seconds": [
+      4.29191118455492,
+      4.26801978237927
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "wide_defense",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.05,
+      "range_power": 0.25,
+      "induce": 0.3
+    },
+    "opponent": "polar",
+    "mean": 0.225,
+    "ci": [
+      -0.7519894047004282,
+      1.2019894047004283
+    ],
+    "seconds": [
+      3.94455779902637,
+      3.9584039400797337
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "wide_defense",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.05,
+      "range_power": 0.25,
+      "induce": 0.3
+    },
+    "opponent": "jish_2",
+    "mean": -1.9925,
+    "ci": [
+      -2.939280494948864,
+      -1.045719505051136
+    ],
+    "seconds": [
+      3.404728409834206,
+      3.322083232924342
+    ],
+    "deals": 1000
+  }
+]

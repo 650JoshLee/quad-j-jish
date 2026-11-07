@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "pocketedge1",
+    "seconds": 0.3759126248769462,
+    "identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    }
+  },
+  {
+    "half": 1,
+    "id": "pokerbot2",
+    "seconds": 0.2723216249141842,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pocketedge1",
+    "seconds": 0.37776470882818103,
+    "identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pokerbot2",
+    "seconds": 0.2688853330910206,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  }
+]

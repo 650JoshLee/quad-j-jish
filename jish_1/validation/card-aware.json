@@ -1,0 +1,86 @@
+[
+  {
+    "opponent": "tight",
+    "deals": 1000,
+    "hands": 2000,
+    "seed": "held-out-strategy-93",
+    "bb_per_duplicate": 0.8745,
+    "ci95": [
+      0.22599919449985717,
+      1.523000805500143
+    ],
+    "verdict": "WIN",
+    "compute_seconds": [
+      1.2681453013792634,
+      1.1906931027770042
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.174651167122647
+  },
+  {
+    "opponent": "equity",
+    "deals": 1000,
+    "hands": 2000,
+    "seed": "held-out-strategy-93",
+    "bb_per_duplicate": 2.643,
+    "ci95": [
+      1.7190303854724602,
+      3.5669696145275394
+    ],
+    "verdict": "WIN",
+    "compute_seconds": [
+      1.7000891619827598,
+      1.629341375315562
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 4.287295792018995
+  },
+  {
+    "opponent": "loose",
+    "deals": 1000,
+    "hands": 2000,
+    "seed": "held-out-strategy-93",
+    "bb_per_duplicate": 5.082,
+    "ci95": [
+      3.990403245994678,
+      6.173596754005322
+    ],
+    "verdict": "WIN",
+    "compute_seconds": [
+      1.555001612054184,
+      1.5917571955360472
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 4.055538000073284
+  },
+  {
+    "opponent": "fold",
+    "deals": 1000,
+    "hands": 2000,
+    "seed": "held-out-strategy-93",
+    "bb_per_duplicate": 1.498,
+    "ci95": [
+      1.49408,
+      1.50192
+    ],
+    "verdict": "WIN",
+    "compute_seconds": [
+      0.0058525854256004095,
+      0.01355362543836236
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 0.04823812493123114
+  }
+]

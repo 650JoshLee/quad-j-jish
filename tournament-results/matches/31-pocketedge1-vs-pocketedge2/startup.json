@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "pocketedge1",
+    "seconds": 0.38021224993281066,
+    "identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    }
+  },
+  {
+    "half": 1,
+    "id": "pocketedge2",
+    "seconds": 0.38122654194012284,
+    "identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pocketedge1",
+    "seconds": 0.3775709578767419,
+    "identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pocketedge2",
+    "seconds": 0.3724101670086384,
+    "identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    }
+  }
+]

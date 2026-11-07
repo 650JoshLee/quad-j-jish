@@ -1,0 +1,26 @@
+[
+  {
+    "agent": 1,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new_2/agent.py",
+    "half": 1,
+    "seconds": 1.9635184169746935
+  },
+  {
+    "agent": 2,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new/agent.py",
+    "half": 1,
+    "seconds": 1.0924979171250015
+  },
+  {
+    "agent": 1,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new_2/agent.py",
+    "half": 2,
+    "seconds": 1.9060684170108289
+  },
+  {
+    "agent": 2,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new/agent.py",
+    "half": 2,
+    "seconds": 1.138199666980654
+  }
+]

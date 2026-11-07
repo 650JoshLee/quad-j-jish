@@ -1,0 +1,21 @@
+agent1 = YOUR_REGISTERED_TEAM_NAME / Maroon Equity (http://localhost:15610)
+agent2 = Jesse Park (adapter) / Flush Theory (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: +2.894 bb/deal  (std 12.81, stderr 0.405)
+Confidence interval (z=1.96): [+2.100, +3.689] bb/deal
+Reason: interval [+2.100, +3.689] is entirely above 0
+half1: agent1 +2683 chips, agent2 -2683 chips
+half2: agent1 +3106 chips, agent2 -3106 chips
+Faults:
+  agent1 half1: thinking 0.27s of 8s (wall 2.49s), calls 2497, errors 0
+  agent1 half2: thinking 0.28s of 8s (wall 2.41s), calls 2401, errors 0
+  agent2 half1: thinking 1.20s of 8s (wall 2.96s), calls 2669, errors 0
+  agent2 half2: thinking 1.16s of 8s (wall 2.85s), calls 2597, errors 0
+Speed: 2000 hands in 10.92s (183 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (YOUR_REGISTERED_TEAM_NAME / Maroon Equity (http://localhost:15610))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

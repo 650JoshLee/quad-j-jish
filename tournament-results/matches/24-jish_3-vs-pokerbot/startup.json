@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "jish_3",
+    "seconds": 1.980257332790643,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_3"
+    }
+  },
+  {
+    "half": 1,
+    "id": "pokerbot",
+    "seconds": 0.2773070000112057,
+    "identity": {
+      "participant": "TeamName",
+      "agent_name": "TitForTatBot"
+    }
+  },
+  {
+    "half": 2,
+    "id": "jish_3",
+    "seconds": 2.1425963339861482,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_3"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pokerbot",
+    "seconds": 0.31753737502731383,
+    "identity": {
+      "participant": "TeamName",
+      "agent_name": "TitForTatBot"
+    }
+  }
+]

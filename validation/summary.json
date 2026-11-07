@@ -1,317 +1,231 @@
 {
-  "head_to_head": {
-    "mean_bb_per_duplicate": 0.5959,
-    "ci95": [
-      0.441888670577683,
-      0.749911329422317
-    ],
-    "hands": 20000,
-    "matches": 10,
-    "wins": 6,
-    "draws": 4,
-    "losses": 0
+  "matches": 55,
+  "hands": 110000,
+  "hands_per_bot": 20000,
+  "deals_per_match": 1000,
+  "match_seed": "round-robin-jish-new3-fresh-1",
+  "rules": {
+    "starting_stack": 80,
+    "big_blind": 2,
+    "small_blind": 1,
+    "raises_per_street": 4,
+    "time_bank_per_half_seconds": 8,
+    "action_timeout_seconds": 1
   },
-  "field": [
+  "errors": 0,
+  "forfeit_halves": 0,
+  "time_bank_exhausted_halves": 0,
+  "max_charged_seconds": 3.646536,
+  "max_startup_seconds": 2.0362202080432326,
+  "standings": [
     {
-      "opponent": "equity",
-      "new": {
-        "mean_bb_per_duplicate": 3.5505,
-        "ci95": [
-          2.854983191795448,
-          4.246016808204552
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 3.341,
-        "ci95": [
-          2.6801334454243593,
-          4.001866554575641
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.2095,
-        "ci95": [
-          -0.2043158027034294,
-          0.6233158027034293
-        ]
-      }
+      "id": "jish_new_2",
+      "bot": "jish_new_2",
+      "matches": 10,
+      "wins": 8,
+      "draws": 2,
+      "losses": 0,
+      "points": 9.0,
+      "net_chips": 30575,
+      "hands_won": 10351,
+      "hands_lost": 9074,
+      "ties": 575,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 2.724908,
+      "rank": 1,
+      "avg_bb_per_duplicate_deal": 1.52875
     },
     {
-      "opponent": "half",
-      "new": {
-        "mean_bb_per_duplicate": 5.8025,
-        "ci95": [
-          4.5929309836980785,
-          7.012069016301922
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 5.8025,
-        "ci95": [
-          4.5929309836980785,
-          7.012069016301922
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.0,
-        "ci95": [
-          0.0,
-          0.0
-        ]
-      }
+      "id": "jish_new",
+      "bot": "jish_new",
+      "matches": 10,
+      "wins": 8,
+      "draws": 2,
+      "losses": 0,
+      "points": 9.0,
+      "net_chips": 28791,
+      "hands_won": 10344,
+      "hands_lost": 9068,
+      "ties": 588,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.371665,
+      "rank": 2,
+      "avg_bb_per_duplicate_deal": 1.43955
     },
     {
-      "opponent": "loose",
-      "new": {
-        "mean_bb_per_duplicate": 4.732,
-        "ci95": [
-          3.8917979412006867,
-          5.572202058799314
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 4.9155,
-        "ci95": [
-          4.127874917207862,
-          5.703125082792138
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": -0.1835,
-        "ci95": [
-          -0.6071787294343293,
-          0.24017872943432927
-        ]
-      }
+      "id": "jish_new_3",
+      "bot": "jish_new_3",
+      "matches": 10,
+      "wins": 7,
+      "draws": 3,
+      "losses": 0,
+      "points": 8.5,
+      "net_chips": 30542,
+      "hands_won": 10401,
+      "hands_lost": 9040,
+      "ties": 559,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.379745,
+      "rank": 3,
+      "avg_bb_per_duplicate_deal": 1.5271
     },
     {
-      "opponent": "nit",
-      "new": {
-        "mean_bb_per_duplicate": 1.74675,
-        "ci95": [
-          1.3754246987461998,
-          2.1180753012538003
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 1.74425,
-        "ci95": [
-          1.3751289078311943,
-          2.113371092168806
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.0025,
-        "ci95": [
-          -0.019874241849706886,
-          0.024874241849706883
-        ]
-      }
+      "id": "jish",
+      "bot": "jish",
+      "matches": 10,
+      "wins": 7,
+      "draws": 1,
+      "losses": 2,
+      "points": 7.5,
+      "net_chips": 19184,
+      "hands_won": 10009,
+      "hands_lost": 9403,
+      "ties": 588,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.358223,
+      "rank": 4,
+      "avg_bb_per_duplicate_deal": 0.9592
     },
     {
-      "opponent": "polar",
-      "new": {
-        "mean_bb_per_duplicate": 4.207,
-        "ci95": [
-          3.4973754649596973,
-          4.916624535040302
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 4.33075,
-        "ci95": [
-          3.6558891916410623,
-          5.005610808358938
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": -0.12375,
-        "ci95": [
-          -0.761255786375764,
-          0.5137557863757639
-        ]
-      }
+      "id": "pocketedge2",
+      "bot": "PocketEdge (2)",
+      "matches": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "points": 4.0,
+      "net_chips": -3349,
+      "hands_won": 9296,
+      "hands_lost": 10034,
+      "ties": 670,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.008069,
+      "rank": 5,
+      "avg_bb_per_duplicate_deal": -0.16745
     },
     {
-      "opponent": "pot",
-      "new": {
-        "mean_bb_per_duplicate": 5.2115,
-        "ci95": [
-          3.9821131855009866,
-          6.440886814499013
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 5.2115,
-        "ci95": [
-          3.9821131855009866,
-          6.440886814499013
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.0,
-        "ci95": [
-          0.0,
-          0.0
-        ]
-      }
+      "id": "pocketedge1",
+      "bot": "PocketEdge (1)",
+      "matches": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "points": 4.0,
+      "net_chips": -3730,
+      "hands_won": 9271,
+      "hands_lost": 10061,
+      "ties": 668,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.005062,
+      "rank": 6,
+      "avg_bb_per_duplicate_deal": -0.1865
     },
     {
-      "opponent": "pressure",
-      "new": {
-        "mean_bb_per_duplicate": 0.37275,
-        "ci95": [
-          -0.3268077765755546,
-          1.0723077765755546
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 0.37275,
-        "ci95": [
-          -0.3268077765755546,
-          1.0723077765755546
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.0,
-        "ci95": [
-          0.0,
-          0.0
-        ]
-      }
+      "id": "quad2",
+      "bot": "PokerBot-Team-quad-j (2)",
+      "matches": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "points": 4.0,
+      "net_chips": -5389,
+      "hands_won": 10946,
+      "hands_lost": 8281,
+      "ties": 773,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.31198,
+      "rank": 7,
+      "avg_bb_per_duplicate_deal": -0.26945
     },
     {
-      "opponent": "random",
-      "new": {
-        "mean_bb_per_duplicate": 10.384,
-        "ci95": [
-          9.334263641991065,
-          11.433736358008936
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 10.46225,
-        "ci95": [
-          9.40477637864111,
-          11.519723621358889
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": -0.07825,
-        "ci95": [
-          -1.0546941762518827,
-          0.8981941762518827
-        ]
-      }
+      "id": "quad1",
+      "bot": "PokerBot-Team-quad-j",
+      "matches": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "points": 4.0,
+      "net_chips": -7003,
+      "hands_won": 9626,
+      "hands_lost": 9609,
+      "ties": 765,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.295063,
+      "rank": 8,
+      "avg_bb_per_duplicate_deal": -0.35015
     },
     {
-      "opponent": "station",
-      "new": {
-        "mean_bb_per_duplicate": 11.8,
-        "ci95": [
-          11.068620553100052,
-          12.53137944689995
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 11.747,
-        "ci95": [
-          11.01113980809952,
-          12.48286019190048
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.053,
-        "ci95": [
-          -0.0479908513125046,
-          0.1539908513125046
-        ]
-      }
+      "id": "pokerbot2",
+      "bot": "pokerbot2",
+      "matches": 10,
+      "wins": 2,
+      "draws": 4,
+      "losses": 4,
+      "points": 4.0,
+      "net_chips": -7270,
+      "hands_won": 9882,
+      "hands_lost": 9524,
+      "ties": 594,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 0.600615,
+      "rank": 9,
+      "avg_bb_per_duplicate_deal": -0.3635
     },
     {
-      "opponent": "switcher",
-      "new": {
-        "mean_bb_per_duplicate": 2.47225,
-        "ci95": [
-          1.5391754988071218,
-          3.4053245011928777
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 2.51875,
-        "ci95": [
-          1.5962534073773225,
-          3.441246592622677
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": -0.0465,
-        "ci95": [
-          -0.2612042787506968,
-          0.16820427875069682
-        ]
-      }
+      "id": "pokerbot",
+      "bot": "pokerbot",
+      "matches": 10,
+      "wins": 1,
+      "draws": 0,
+      "losses": 9,
+      "points": 1.0,
+      "net_chips": -30281,
+      "hands_won": 9101,
+      "hands_lost": 10150,
+      "ties": 749,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 3.646536,
+      "rank": 10,
+      "avg_bb_per_duplicate_deal": -1.51405
     },
     {
-      "opponent": "tight",
-      "new": {
-        "mean_bb_per_duplicate": 1.38,
-        "ci95": [
-          0.9441096852839792,
-          1.8158903147160206
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 1.509,
-        "ci95": [
-          1.075302372808986,
-          1.9426976271910137
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": -0.129,
-        "ci95": [
-          -0.34459758887186953,
-          0.08659758887186955
-        ]
-      }
-    },
-    {
-      "opponent": "trapper",
-      "new": {
-        "mean_bb_per_duplicate": 2.44875,
-        "ci95": [
-          1.8328615353416664,
-          3.0646384646583336
-        ]
-      },
-      "original": {
-        "mean_bb_per_duplicate": 2.37925,
-        "ci95": [
-          1.7790504937696219,
-          2.979449506230378
-        ]
-      },
-      "difference": {
-        "mean_bb_per_duplicate": 0.0695,
-        "ci95": [
-          -0.32040514880972537,
-          0.4594051488097254
-        ]
-      }
+      "id": "jesse",
+      "bot": "Jesse Park / Flush Theory",
+      "matches": 10,
+      "wins": 0,
+      "draws": 0,
+      "losses": 10,
+      "points": 0.0,
+      "net_chips": -52070,
+      "hands_won": 7269,
+      "hands_lost": 12252,
+      "ties": 479,
+      "errors": 0,
+      "forfeit_halves": 0,
+      "time_bank_exhausted_halves": 0,
+      "max_charged_seconds": 1.405662,
+      "rank": 11,
+      "avg_bb_per_duplicate_deal": -2.6035
     }
-  ],
-  "field_difference": {
-    "mean_bb_per_duplicate": -0.018875,
-    "ci95": [
-      -0.1356975670352284,
-      0.0979475670352284
-    ]
-  },
-  "field_wins": 22,
-  "field_draws": 2,
-  "field_losses": 0,
-  "http_halves": 12,
-  "max_http_charged_seconds": 0.642083,
-  "max_startup_seconds": 1.301580165978521
+  ]
 }

@@ -1,0 +1,21 @@
+agent1 = Datathon2026 / PocketEdge v2 (http://localhost:15610)
+agent2 = Team-quad-j / AdaptiveProfit (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: -0.455 bb/deal  (std 5.09, stderr 0.161)
+Confidence interval (z=1.96): [-0.771, -0.139] bb/deal
+Reason: interval [-0.771, -0.139] is entirely below 0
+half1: agent1 -298 chips, agent2 +298 chips
+half2: agent1 -612 chips, agent2 +612 chips
+Faults:
+  agent1 half1: thinking 0.01s of 8s (wall 1.83s), calls 3186, errors 0
+  agent1 half2: thinking 0.01s of 8s (wall 1.79s), calls 3118, errors 0
+  agent2 half1: thinking 0.39s of 8s (wall 2.84s), calls 3130, errors 0
+  agent2 half2: thinking 0.37s of 8s (wall 2.80s), calls 3094, errors 0
+Speed: 2000 hands in 9.54s (210 hands/s)
+
+============================================================
+  VERDICT: AGENT2 WINS  (Team-quad-j / AdaptiveProfit (http://localhost:15611))
+  Points: agent1 0, agent2 1
+============================================================
+RESULT: AGENT2_WIN

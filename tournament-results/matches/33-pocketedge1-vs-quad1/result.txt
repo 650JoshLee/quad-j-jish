@@ -1,0 +1,21 @@
+agent1 = Datathon2026 / PocketEdge v2 (http://localhost:15610)
+agent2 = YOUR_TEAM_NAME / ShortDeckEquity (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: +0.028 bb/deal  (std 4.72, stderr 0.149)
+Confidence interval (z=1.96): [-0.265, +0.321] bb/deal
+Reason: interval [-0.265, +0.321] includes 0
+half1: agent1 -212 chips, agent2 +212 chips
+half2: agent1 +268 chips, agent2 -268 chips
+Faults:
+  agent1 half1: thinking 0.01s of 8s (wall 1.80s), calls 3140, errors 0
+  agent1 half2: thinking 0.01s of 8s (wall 1.80s), calls 3052, errors 0
+  agent2 half1: thinking 0.43s of 8s (wall 2.91s), calls 3158, errors 0
+  agent2 half2: thinking 0.37s of 8s (wall 2.79s), calls 3087, errors 0
+Speed: 2000 hands in 9.59s (209 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

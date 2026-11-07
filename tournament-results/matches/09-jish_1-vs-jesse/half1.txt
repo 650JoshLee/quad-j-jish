@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:15610 ...
+waiting for agent2 at http://localhost:15611 ...
+agent1 = quad-j / jish_1 (http://localhost:15610)  (seat 0)
+agent2 = Jesse Park (adapter) / Flush Theory (http://localhost:15611)  (seat 1)
+
+Half 1: 1000 deals, seed jish5-final-holdout-20261107
+Chips: agent1 +2882 (+1.441 bb/deal), agent2 -2882
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.26s of 8s (wall 1.81s), calls 2260, errors 0
+  agent2: thinking 1.02s of 8s (wall 2.59s), calls 2558, errors 0
+Speed: 1000 hands in 4.49s (222 hands/s)
+RESULT: HALF_DONE

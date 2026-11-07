@@ -1,0 +1,134 @@
+[
+  {
+    "id": "jish_1",
+    "label": "jish_1",
+    "reported_identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_1"
+    },
+    "startup_seconds": 1.212164374999702,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "jish_2",
+    "label": "jish_2",
+    "reported_identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_2"
+    },
+    "startup_seconds": 1.196263332851231,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "jish_3",
+    "label": "jish_3",
+    "reported_identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_3"
+    },
+    "startup_seconds": 2.106471542036161,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "pocketedge1",
+    "label": "PocketEdge (1)",
+    "reported_identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    },
+    "startup_seconds": 0.3291554159950465,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "pocketedge2",
+    "label": "PocketEdge (2)",
+    "reported_identity": {
+      "participant": "Datathon2026",
+      "agent_name": "PocketEdge v2"
+    },
+    "startup_seconds": 0.324207958066836,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "pokerbot",
+    "label": "pokerbot",
+    "reported_identity": {
+      "participant": "TeamName",
+      "agent_name": "TitForTatBot"
+    },
+    "startup_seconds": 0.27221741690300405,
+    "decisions": 34,
+    "ok": true
+  },
+  {
+    "id": "quad1",
+    "label": "PokerBot-Team-quad-j",
+    "reported_identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    },
+    "startup_seconds": 0.4298070000950247,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "quad2",
+    "label": "PokerBot-Team-quad-j (2)",
+    "reported_identity": {
+      "participant": "Team-quad-j",
+      "agent_name": "AdaptiveProfit"
+    },
+    "startup_seconds": 0.4395239590667188,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "pokerbot2",
+    "label": "pokerbot2",
+    "reported_identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    },
+    "startup_seconds": 0.275006250012666,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "jesse",
+    "label": "Jesse Park / Flush Theory",
+    "reported_identity": {
+      "participant": "Jesse Park (adapter)",
+      "agent_name": "Flush Theory"
+    },
+    "startup_seconds": 0.6605410419870168,
+    "decisions": 31,
+    "ok": true
+  },
+  {
+    "id": "jish_4",
+    "label": "jish_4",
+    "reported_identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_4"
+    },
+    "startup_seconds": 1.209353166865185,
+    "decisions": 40,
+    "ok": true
+  },
+  {
+    "id": "jish_5",
+    "label": "jish_5",
+    "reported_identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_5"
+    },
+    "startup_seconds": 1.1268451670184731,
+    "decisions": 40,
+    "ok": true
+  }
+]

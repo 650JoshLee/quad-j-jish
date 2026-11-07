@@ -1,0 +1,482 @@
+[
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "station",
+    "mean": 12.5985,
+    "ci": [
+      11.579069971297775,
+      13.617930028702224
+    ],
+    "seconds": [
+      5.121396365342662,
+      5.121556144673377
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "pot",
+    "mean": 5.815,
+    "ci": [
+      4.226417657690261,
+      7.40358234230974
+    ],
+    "seconds": [
+      1.794737363466993,
+      1.7652543208096176
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "tight",
+    "mean": -0.047,
+    "ci": [
+      -0.7814253547552041,
+      0.687425354755204
+    ],
+    "seconds": [
+      2.7299758619628847,
+      2.8152394311036915
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "polar",
+    "mean": 2.689,
+    "ci": [
+      1.760874262618049,
+      3.617125737381951
+    ],
+    "seconds": [
+      3.530813172692433,
+      3.4989075385965407
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "trapper",
+    "mean": 2.5705,
+    "ci": [
+      1.7458970386109862,
+      3.395102961389014
+    ],
+    "seconds": [
+      4.0858258965890855,
+      4.107493555638939
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "pressure",
+    "mean": 0.1205,
+    "ci": [
+      -0.7585504460463541,
+      0.9995504460463542
+    ],
+    "seconds": [
+      3.5948656562250108,
+      3.714056509779766
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "loose",
+    "mean": 2.147,
+    "ci": [
+      1.246596116612762,
+      3.0474038833872377
+    ],
+    "seconds": [
+      3.04595211870037,
+      3.0086943332571536
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "conservative",
+    "settings": {
+      "future_tax": 0.18,
+      "value_margin": 0.045,
+      "range_power": 0.95,
+      "induce": 0.3
+    },
+    "opponent": "jish_2",
+    "mean": -1.6315,
+    "ci": [
+      -2.52390667106368,
+      -0.7390933289363201
+    ],
+    "seconds": [
+      2.7322558499872684,
+      2.7430779552087188
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "station",
+    "mean": 11.9415,
+    "ci": [
+      10.944403814525655,
+      12.938596185474344
+    ],
+    "seconds": [
+      5.121143870288506,
+      5.121559680439532
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "pot",
+    "mean": 5.6515,
+    "ci": [
+      4.144109277384584,
+      7.158890722615417
+    ],
+    "seconds": [
+      2.0761564259883016,
+      2.121508148033172
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "tight",
+    "mean": -0.2685,
+    "ci": [
+      -0.9901733027959179,
+      0.4531733027959178
+    ],
+    "seconds": [
+      2.8228061490226537,
+      2.919345853384584
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "polar",
+    "mean": 1.8555,
+    "ci": [
+      0.984978332259555,
+      2.726021667740445
+    ],
+    "seconds": [
+      3.6372680934146047,
+      3.5449661198072135
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "trapper",
+    "mean": 2.651,
+    "ci": [
+      1.8686726425769242,
+      3.4333273574230754
+    ],
+    "seconds": [
+      4.148919760249555,
+      4.100887564942241
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "pressure",
+    "mean": 0.107,
+    "ci": [
+      -0.7595539279419553,
+      0.9735539279419553
+    ],
+    "seconds": [
+      3.5828305336181074,
+      3.633880750508979
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "loose",
+    "mean": 1.995,
+    "ci": [
+      1.1438824573353976,
+      2.8461175426646026
+    ],
+    "seconds": [
+      3.247922331094742,
+      3.17272167513147
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "credible",
+    "settings": {
+      "future_tax": 0.12,
+      "value_margin": 0.025,
+      "range_power": 1.15,
+      "induce": 0.25
+    },
+    "opponent": "jish_2",
+    "mean": -1.81,
+    "ci": [
+      -2.711005884244628,
+      -0.9089941157553724
+    ],
+    "seconds": [
+      2.986681151203811,
+      2.956014269962907
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "station",
+    "mean": 12.2635,
+    "ci": [
+      11.2346944530078,
+      13.292305546992202
+    ],
+    "seconds": [
+      5.121351099340245,
+      5.12146057956852
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "pot",
+    "mean": 5.0845,
+    "ci": [
+      3.6553679548698037,
+      6.513632045130197
+    ],
+    "seconds": [
+      2.2203887831419706,
+      2.236768732080236
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "tight",
+    "mean": -0.991,
+    "ci": [
+      -1.7703508815848141,
+      -0.21164911841518586
+    ],
+    "seconds": [
+      2.847465236671269,
+      2.94771733507514
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "polar",
+    "mean": 1.91,
+    "ci": [
+      1.0383944676380006,
+      2.7816055323619993
+    ],
+    "seconds": [
+      3.854115901514888,
+      3.996888942318037
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "trapper",
+    "mean": 2.266,
+    "ci": [
+      1.473105758736874,
+      3.058894241263126
+    ],
+    "seconds": [
+      4.503302074735984,
+      4.763939359458163
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "pressure",
+    "mean": 0.2,
+    "ci": [
+      -0.6599297408272138,
+      1.059929740827214
+    ],
+    "seconds": [
+      4.617247008252889,
+      4.4344353773631155
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "loose",
+    "mean": 1.889,
+    "ci": [
+      1.0688312556457569,
+      2.709168744354243
+    ],
+    "seconds": [
+      3.8786732850130647,
+      3.8059996047522873
+    ],
+    "deals": 1000
+  },
+  {
+    "variant": "skeptical",
+    "settings": {
+      "future_tax": 0.07,
+      "value_margin": 0.025,
+      "range_power": 0.45,
+      "induce": 0.22
+    },
+    "opponent": "jish_2",
+    "mean": -2.41,
+    "ci": [
+      -3.3934243116868816,
+      -1.4265756883131187
+    ],
+    "seconds": [
+      3.5909516527317464,
+      3.5795575256925076
+    ],
+    "deals": 1000
+  }
+]

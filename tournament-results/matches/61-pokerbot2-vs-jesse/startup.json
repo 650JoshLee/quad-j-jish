@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "pokerbot2",
+    "seconds": 0.26016025012359023,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  },
+  {
+    "half": 1,
+    "id": "jesse",
+    "seconds": 0.630077333888039,
+    "identity": {
+      "participant": "Jesse Park (adapter)",
+      "agent_name": "Flush Theory"
+    }
+  },
+  {
+    "half": 2,
+    "id": "pokerbot2",
+    "seconds": 0.26138700009323657,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "jesse",
+    "seconds": 0.5886419168673456,
+    "identity": {
+      "participant": "Jesse Park (adapter)",
+      "agent_name": "Flush Theory"
+    }
+  }
+]

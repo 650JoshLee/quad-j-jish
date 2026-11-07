@@ -1,0 +1,42 @@
+[
+  {
+    "opponent": "random",
+    "half": 1,
+    "bot_startup_seconds": 1.1390339171048254
+  },
+  {
+    "opponent": "random",
+    "half": 2,
+    "bot_startup_seconds": 1.1489822920411825
+  },
+  {
+    "opponent": "calling_station",
+    "half": 1,
+    "bot_startup_seconds": 1.14882987504825
+  },
+  {
+    "opponent": "calling_station",
+    "half": 2,
+    "bot_startup_seconds": 1.1492419999558479
+  },
+  {
+    "opponent": "always_pot",
+    "half": 1,
+    "bot_startup_seconds": 1.1440411671064794
+  },
+  {
+    "opponent": "always_pot",
+    "half": 2,
+    "bot_startup_seconds": 1.1474499581381679
+  },
+  {
+    "opponent": "always_half",
+    "half": 1,
+    "bot_startup_seconds": 1.146338582970202
+  },
+  {
+    "opponent": "always_half",
+    "half": 2,
+    "bot_startup_seconds": 1.1427770000882447
+  }
+]

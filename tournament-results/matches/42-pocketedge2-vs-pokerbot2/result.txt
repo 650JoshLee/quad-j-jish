@@ -1,0 +1,21 @@
+agent1 = Datathon2026 / PocketEdge v2 (http://localhost:15610)
+agent2 = YOUR_REGISTERED_TEAM_NAME / Maroon Equity (http://localhost:15611)
+
+Duplicate match: 1000 deals (2000 hands), seed jish5-final-holdout-20261107
+agent1: -0.107 bb/deal  (std 7.67, stderr 0.243)
+Confidence interval (z=1.96): [-0.583, +0.369] bb/deal
+Reason: interval [-0.583, +0.369] includes 0
+half1: agent1 +191 chips, agent2 -191 chips
+half2: agent1 -405 chips, agent2 +405 chips
+Faults:
+  agent1 half1: thinking 0.01s of 8s (wall 1.66s), calls 3110, errors 0
+  agent1 half2: thinking 0.00s of 8s (wall 1.54s), calls 3059, errors 0
+  agent2 half1: thinking 0.54s of 8s (wall 3.29s), calls 3002, errors 0
+  agent2 half2: thinking 0.43s of 8s (wall 3.11s), calls 2948, errors 0
+Speed: 2000 hands in 9.85s (203 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

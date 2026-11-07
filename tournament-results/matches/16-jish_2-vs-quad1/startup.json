@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "jish_2",
+    "seconds": 1.1698661660775542,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_2"
+    }
+  },
+  {
+    "half": 1,
+    "id": "quad1",
+    "seconds": 0.4184577080886811,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "jish_2",
+    "seconds": 1.248564374865964,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_2"
+    }
+  },
+  {
+    "half": 2,
+    "id": "quad1",
+    "seconds": 0.42545520910061896,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  }
+]

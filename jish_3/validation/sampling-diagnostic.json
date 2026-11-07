@@ -1,0 +1,65 @@
+[
+  {
+    "case": "draw-heavy",
+    "method": "old",
+    "mean": 0.46699942129629624,
+    "standard_deviation": 0.010458664819933941,
+    "mean_seconds": 0.0004994750954210759
+  },
+  {
+    "case": "draw-heavy",
+    "method": "shared32",
+    "mean": 0.4795992294794686,
+    "standard_deviation": 0.06336177615642198,
+    "mean_seconds": 0.00034496677884211145
+  },
+  {
+    "case": "draw-heavy",
+    "method": "enumerated",
+    "mean": 0.4644722531016689,
+    "standard_deviation": 0.0052507740845417206,
+    "mean_seconds": 0.002205263893119991
+  },
+  {
+    "case": "paired",
+    "method": "old",
+    "mean": 0.9094762731481482,
+    "standard_deviation": 0.007279365369588588,
+    "mean_seconds": 0.0004920681317647298
+  },
+  {
+    "case": "paired",
+    "method": "shared32",
+    "mean": 0.9107615930210611,
+    "standard_deviation": 0.02284187866217748,
+    "mean_seconds": 0.0003462277896081408
+  },
+  {
+    "case": "paired",
+    "method": "enumerated",
+    "mean": 0.9097536163263066,
+    "standard_deviation": 0.005216617535443817,
+    "mean_seconds": 0.0021870527882128952
+  },
+  {
+    "case": "turn",
+    "method": "old",
+    "mean": 0.3526331018518519,
+    "standard_deviation": 0.013200677362490722,
+    "mean_seconds": 0.0004987430758774281
+  },
+  {
+    "case": "turn",
+    "method": "shared32",
+    "mean": 0.35308652935606066,
+    "standard_deviation": 0.00569635549132438,
+    "mean_seconds": 0.0003095208511998256
+  },
+  {
+    "case": "turn",
+    "method": "enumerated",
+    "mean": 0.35308652935606066,
+    "standard_deviation": 0.00569635549132438,
+    "mean_seconds": 0.0003083917157103618
+  }
+]

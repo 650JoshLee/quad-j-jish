@@ -1,0 +1,222 @@
+[
+  {
+    "id": "jish_1",
+    "label": "jish_1",
+    "source": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_1",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-jish5/entrants/jish_1",
+    "source_fingerprint": "34ab52d1473ada955afcd4123cf426b2b80b8cadd1b383416cdecf371eafe6d4",
+    "source_files": {
+      "agent.py": "8e5f68c019e12a1da72a2dada16bd92664952d1c03da90dd671f8bb36c42e2cc",
+      "data/preflop.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "test_agent.py": "8bf6041ae67b482fef8b098cbfdf9af8976e68ab9874140cb235e661d0dbf2da"
+    },
+    "adapted": false
+  },
+  {
+    "id": "jish_2",
+    "label": "jish_2",
+    "source": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_2",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-jish5/entrants/jish_2",
+    "source_fingerprint": "17962264ef9b008f7c0698b3f3b1eaf38944146f0d448329abbce2b711ca1b43",
+    "source_files": {
+      "agent.py": "b66fe4fa43f33da7b79a7bab99d00315513e948dd30a9bb4b71609a499e09652",
+      "data/preflop.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "test_agent.py": "8bf6041ae67b482fef8b098cbfdf9af8976e68ab9874140cb235e661d0dbf2da"
+    },
+    "adapted": false
+  },
+  {
+    "id": "jish_3",
+    "label": "jish_3",
+    "source": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_3",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-jish5/entrants/jish_3",
+    "source_fingerprint": "b7fb9cfe14d56762d539a319e6f91675a516b7289005323ae7cb2cfb7fd74d85",
+    "source_files": {
+      "agent.py": "cae1e0ce36b84e4b5d9fe5676a3a341cd7783e3b18b34a425bbca0a11e1af18d",
+      "data/preflop.npy": "720bdef233eb75d952d184da94bc30f679290abe214d0765d485b0cd70f17fee",
+      "data/preflop_initial.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "test_agent.py": "8bf6041ae67b482fef8b098cbfdf9af8976e68ab9874140cb235e661d0dbf2da"
+    },
+    "adapted": false
+  },
+  {
+    "id": "pocketedge1",
+    "label": "PocketEdge (1)",
+    "source": "/Users/josh/Downloads/pocketedge-submission (1)",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/pocketedge1",
+    "source_fingerprint": "bfb243d907c3c817d9e72d8d5abd10c24ba65878021fdb3835ca1818bb55ef16",
+    "source_files": {
+      "agent.py": "d7e915f7b89e36e1761867cd4211fa409c2da0d0f4a5a9e715c0d70c6e9dd119",
+      "arena.py": "cce708b29013aded93349b6cb8580a72cc4c3e6dffac9cf4c5034b9dee98cbee",
+      "build_native.py": "3f1bcfbc587ab7c4af4ff6c1d46656ff94ac9ef02c0c110ff51536628f2c7d01",
+      "evaluator.py": "02d784a0cdfe3be0a12dd69de54b322a0d350e5de45a8a98b9c99b7c987cb49e",
+      "fallback_strategy.py": "251e9d0122c6d9ddaf4a232639b02b869df986318caae249151759b0989bf5c2",
+      "game.py": "06829231bf2a285279c42a2ab4228bb4a46e170a6398146c894111c05e3c61a2",
+      "judge_engine.py": "79c7fc238703ab981e162da4a32000afd87361f1844b3d9c04bdf5a395494052",
+      "native/equity.c": "3da6ab954dc6a51d18863e59787a8281f98b4cc231432acee54b768aef90048a",
+      "native_engine.py": "3c77163cef7e4fa73191195d5f4b60b81b644a6a9d4f047357a1a3a7cc10c2ba",
+      "package-manifest.json": "ec270d20f9ffda144b477ac43335f144cda87d1ef3e2c8796302cab2849917e8",
+      "package_solution.py": "a25cb66495ef87a3788c2259458f7ba4ae38af316978aa85adb9bfcc00be4fc8",
+      "preflop-model.json": "71a15cb55622a32ab7d11a373a03de8ab423ef1fe495d4b0257e910e44f14efb",
+      "preflop.py": "0188813570bdb0a0d4542aee6a5e669e3638c43900425d846cd3aa0678c65ef5",
+      "strategy.py": "67c2e704acf4f5032ccae277812d03622ec40fc61225a08a17c2be6635474c1b",
+      "train_preflop.py": "8277fb3aa65eb8cb59f9fd4f1a1a6d55a362577ad97dcc22090ca5b9c5725c29",
+      "verify_solution.py": "4da1e2a2ca3b3bc342db58ff3fc5a420367e8a095767f6bf75038485a28daf53"
+    },
+    "adapted": false
+  },
+  {
+    "id": "pocketedge2",
+    "label": "PocketEdge (2)",
+    "source": "/Users/josh/Downloads/pocketedge-submission (2)",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/pocketedge2",
+    "source_fingerprint": "bfb243d907c3c817d9e72d8d5abd10c24ba65878021fdb3835ca1818bb55ef16",
+    "source_files": {
+      "agent.py": "d7e915f7b89e36e1761867cd4211fa409c2da0d0f4a5a9e715c0d70c6e9dd119",
+      "arena.py": "cce708b29013aded93349b6cb8580a72cc4c3e6dffac9cf4c5034b9dee98cbee",
+      "build_native.py": "3f1bcfbc587ab7c4af4ff6c1d46656ff94ac9ef02c0c110ff51536628f2c7d01",
+      "evaluator.py": "02d784a0cdfe3be0a12dd69de54b322a0d350e5de45a8a98b9c99b7c987cb49e",
+      "fallback_strategy.py": "251e9d0122c6d9ddaf4a232639b02b869df986318caae249151759b0989bf5c2",
+      "game.py": "06829231bf2a285279c42a2ab4228bb4a46e170a6398146c894111c05e3c61a2",
+      "judge_engine.py": "79c7fc238703ab981e162da4a32000afd87361f1844b3d9c04bdf5a395494052",
+      "native/equity.c": "3da6ab954dc6a51d18863e59787a8281f98b4cc231432acee54b768aef90048a",
+      "native_engine.py": "3c77163cef7e4fa73191195d5f4b60b81b644a6a9d4f047357a1a3a7cc10c2ba",
+      "package-manifest.json": "ec270d20f9ffda144b477ac43335f144cda87d1ef3e2c8796302cab2849917e8",
+      "package_solution.py": "a25cb66495ef87a3788c2259458f7ba4ae38af316978aa85adb9bfcc00be4fc8",
+      "preflop-model.json": "71a15cb55622a32ab7d11a373a03de8ab423ef1fe495d4b0257e910e44f14efb",
+      "preflop.py": "0188813570bdb0a0d4542aee6a5e669e3638c43900425d846cd3aa0678c65ef5",
+      "strategy.py": "67c2e704acf4f5032ccae277812d03622ec40fc61225a08a17c2be6635474c1b",
+      "train_preflop.py": "8277fb3aa65eb8cb59f9fd4f1a1a6d55a362577ad97dcc22090ca5b9c5725c29",
+      "verify_solution.py": "4da1e2a2ca3b3bc342db58ff3fc5a420367e8a095767f6bf75038485a28daf53"
+    },
+    "adapted": false
+  },
+  {
+    "id": "pokerbot",
+    "label": "pokerbot",
+    "source": "/Users/josh/Downloads/pokerbot",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/pokerbot",
+    "source_fingerprint": "d8d898b0d292210957af792ffb4b0f8872c6cd41029e1d7884a6f9809ccc0a1a",
+    "source_files": {
+      "agent.py": "95f0c61929374d680705314e9e1e59bc3177c2885802ce7263d60da0bf2746ec",
+      "data/preflop_equity.json": "5864aa3fa8903533a0021e4b74c03bd912570ebe8e3656082be1fd6727125528",
+      "equity.py": "082eefe854fb526eeaf9a44c9594c9ab71106b995733e6651b93a2f6ea82fb92",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "opponent_model.py": "65815855d12e21fbace3af8c173c13980998c9d470b450a7478f165628ad9277",
+      "preflop.py": "e3df8d81cfdf737937fee0d8d97829c1b29f283e71f8b69f85999ce45a490e2f",
+      "strategy.py": "6e2477ce2ff962b4f23167f9b8f4ee06beed4a73e1e681311147889ed2a7ac14"
+    },
+    "adapted": false
+  },
+  {
+    "id": "quad1",
+    "label": "PokerBot-Team-quad-j",
+    "source": "/Users/josh/Downloads/PokerBot-Team-quad-j-main",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/quad1",
+    "source_fingerprint": "50d60d2758d417b4ba221215eb262bfff0144aa8f285271ee3266b895bcbbe2b",
+    "source_files": {
+      "agent.py": "a220cee851aa3d961a4755c519b3e81d3c5890acffc258554ccb9892c3d7866a",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422"
+    },
+    "adapted": false
+  },
+  {
+    "id": "quad2",
+    "label": "PokerBot-Team-quad-j (2)",
+    "source": "/Users/josh/Downloads/PokerBot-Team-quad-j-main 2",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/quad2",
+    "source_fingerprint": "8296348302884a13e2c903df9949be3aa6bfd3f11e43a26072bb96df54e869f1",
+    "source_files": {
+      "agent.py": "9c849b957a31add8c6eec3a98a758c4cc810fe5a9cb6d66615d3e3456f08ece4",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422"
+    },
+    "adapted": false
+  },
+  {
+    "id": "pokerbot2",
+    "label": "pokerbot2",
+    "source": "/Users/josh/Downloads/pokerbot 2",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/pokerbot2",
+    "source_fingerprint": "358bb756061d0b7f9a1f19a3ee3e808a89f867e087d25308e71320e8aa0e1671",
+    "source_files": {
+      "agent.py": "d214609334101a984e91c431327a73686751ddb5d71c36c074efeab7575b3956",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422"
+    },
+    "adapted": false
+  },
+  {
+    "id": "jesse",
+    "label": "Jesse Park / Flush Theory",
+    "source": "/Users/josh/Downloads/jesse-park-plomaha-bot-52efecb",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-10/entrants/jesse",
+    "source_fingerprint": "bebf8896a24a7e2c4331695de8d86e92fd8bb8d9183df5f3503a762633254525",
+    "source_files": {
+      "plo5/__init__.py": "0c209dabbf739d719af7ad7246eaabb4a0c261c5a1a0dceee9b343d733c592c7",
+      "plo5/__main__.py": "ba86689908c8f70e986434eeb3d4106b8e9a5c192a06afbec66d69a90f1cc5e5",
+      "plo5/bots/__init__.py": "c6c5d4c0c363fdcc99a3f62daa0f57a83967e9a02cc3f1bf021783cf4219bd42",
+      "plo5/bots/anchor.py": "10e0326ee9dbf0126bc53e7d21ed414cbf41d868975daa267b72e89cf5b85d68",
+      "plo5/bots/base.py": "a80b51ea433d714635215ceac25fc45469bc80721fa18c0b4e6771fb67624a9b",
+      "plo5/bots/blind_luck.py": "0431bb6bc41544eaad9e4dd09e28f069c89fba4e4075077354d785af8e5eb288",
+      "plo5/bots/flush_theory.py": "a0d1f37d06a6f258c5a1d40dd6ac6c02aa884209bb94f545fd8ced51bca228e3",
+      "plo5/bots/loose_cannon.py": "bfbb5d29a45bb0036a41ffb91ad65c1837f4bfca75cd4a95af1965f250cc9f1c",
+      "plo5/bots/range_rider.py": "631579286f9bca44433524dba6ed5c8c048f357456662571c5ce700f41706e9c",
+      "plo5/bots/the_rock.py": "e9a9bb4b764c3156d91b4d257c61663e8ced3284531861d42ada7cd0f67503d0",
+      "plo5/cards.py": "cbf2f20bb19cac73bd86d7010279f4c2c898970ed13209eba774d1bbd9dcd4d3",
+      "plo5/engine.py": "9a421dc08f0d9ac8da8a8f3b7df9572c6ab0a2006715f3ad69c8eba364d8da32",
+      "plo5/evaluator.py": "b4a17685e8a9bfc343c67b99db1faad620ff4956fb67585345b210a8e2c1debb",
+      "plo5/features.py": "9ef3fded2a261dc145448557b86ad1b2de5133cbd18770b19188fb8f4a433668",
+      "plo5/server.py": "21cb4b3c02f4a6f35501fa84ed2a0e6ed8b58960d1db96af7828379ac536f6f3",
+      "plo5/tournament.py": "a3b6fc616c07a877fca6c0ba4d6d033ad4c50848a5c96caf8e5e5634c83e29df"
+    },
+    "adapted": true
+  },
+  {
+    "id": "jish_4",
+    "label": "jish_4",
+    "source": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_4",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-jish5/entrants/jish_4",
+    "source_fingerprint": "65c75b068fa56873e750ce9f348a6997fe3ce78c8c0215849ad2bc41004e5d98",
+    "source_files": {
+      "agent.py": "6f776e99dc169a4af5eddb03e29593009f05d575b22cfe29f5e625a93b1526f6",
+      "data/preflop.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "test_agent.py": "8bf6041ae67b482fef8b098cbfdf9af8976e68ab9874140cb235e661d0dbf2da"
+    },
+    "adapted": false
+  },
+  {
+    "id": "jish_5",
+    "label": "jish_5",
+    "source": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_5",
+    "snapshot": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/round-robin-jish5/entrants/jish_5",
+    "adapted": false,
+    "source_files": {
+      "agent.py": "e393417c467dd98b7504f030a70817804af1ff6df69ef98f0548c9a6f181554d",
+      "data/opening_equity.npy": "261296196acc59f44135c81beec8515b8d8faceacc2ecf376cf9b0ff8605fef9",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "test_agent.py": "8bf6041ae67b482fef8b098cbfdf9af8976e68ab9874140cb235e661d0dbf2da"
+    },
+    "source_fingerprint": "0d63090c417720399eca9eb5447a6ceee115a1e9b4510a2dd4a33df801e4f528"
+  }
+]

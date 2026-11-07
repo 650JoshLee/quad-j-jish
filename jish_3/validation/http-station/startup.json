@@ -1,0 +1,26 @@
+[
+  {
+    "agent": 1,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new_2/agent.py",
+    "half": 1,
+    "seconds": 1.96671258402057
+  },
+  {
+    "agent": 2,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new_2/baseline-bots/baseline_calling_station.py",
+    "half": 1,
+    "seconds": 0.16534141590818763
+  },
+  {
+    "agent": 1,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new_2/agent.py",
+    "half": 2,
+    "seconds": 1.9743426251225173
+  },
+  {
+    "agent": 2,
+    "path": "/Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/outputs/jish_new_2/baseline-bots/baseline_calling_station.py",
+    "half": 2,
+    "seconds": 0.16266825003549457
+  }
+]

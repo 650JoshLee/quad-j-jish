@@ -1,0 +1,132 @@
+[
+  {
+    "experiment": "new2-tune-cap_more",
+    "matches": 4,
+    "mean_scores": {
+      "original": 0.24,
+      "pocketedge": 2.032,
+      "quad": 1.8805,
+      "trapper": 1.6185
+    }
+  },
+  {
+    "experiment": "new2-tune-cautious",
+    "matches": 4,
+    "mean_scores": {
+      "original": -0.138,
+      "pocketedge": 2.442,
+      "quad": 1.5885,
+      "trapper": 1.7545
+    }
+  },
+  {
+    "experiment": "new2-tune-control",
+    "matches": 4,
+    "mean_scores": {
+      "original": -0.163,
+      "pocketedge": 2.325,
+      "quad": 2.1835,
+      "trapper": 1.6295
+    }
+  },
+  {
+    "experiment": "new2-tune-narrow",
+    "matches": 4,
+    "mean_scores": {
+      "original": -0.193,
+      "pocketedge": 2.245,
+      "quad": 2.1845,
+      "trapper": 2.0535
+    }
+  },
+  {
+    "experiment": "new2-tune-patient",
+    "matches": 4,
+    "mean_scores": {
+      "original": -0.605,
+      "pocketedge": 2.218,
+      "quad": 1.2615,
+      "trapper": 2.3325
+    }
+  },
+  {
+    "experiment": "new2-tune-realize",
+    "matches": 4,
+    "mean_scores": {
+      "original": -0.255,
+      "pocketedge": 2.043,
+      "quad": 2.3885,
+      "trapper": 1.6865
+    }
+  },
+  {
+    "experiment": "new2-tune-value",
+    "matches": 4,
+    "mean_scores": {
+      "original": 0.006,
+      "pocketedge": 1.796,
+      "quad": 1.6525,
+      "trapper": 1.7145
+    }
+  },
+  {
+    "experiment": "new2-tune-wide",
+    "matches": 4,
+    "mean_scores": {
+      "original": -0.678,
+      "pocketedge": 2.191,
+      "quad": 1.7185,
+      "trapper": 1.9065
+    }
+  },
+  {
+    "experiment": "new2-calibrate-confident",
+    "matches": 8,
+    "mean_scores": {
+      "original": -0.0385,
+      "pocketedge": 1.22925,
+      "quad": 1.7662499999999999,
+      "trapper": 1.936
+    }
+  },
+  {
+    "experiment": "new2-calibrate-fast",
+    "matches": 8,
+    "mean_scores": {
+      "original": -0.23349999999999999,
+      "pocketedge": 1.1672500000000001,
+      "quad": 1.78925,
+      "trapper": 2.2185
+    }
+  },
+  {
+    "experiment": "new2-calibrate-fast_separate",
+    "matches": 8,
+    "mean_scores": {
+      "original": -0.35200000000000004,
+      "pocketedge": 1.30275,
+      "quad": 1.52075,
+      "trapper": 2.358
+    }
+  },
+  {
+    "experiment": "new2-calibrate-separate",
+    "matches": 8,
+    "mean_scores": {
+      "original": -0.20400000000000001,
+      "pocketedge": 1.15125,
+      "quad": 1.74125,
+      "trapper": 2.2135
+    }
+  },
+  {
+    "experiment": "new2-calibrate-slow",
+    "matches": 8,
+    "mean_scores": {
+      "original": -0.2655,
+      "pocketedge": 1.32525,
+      "quad": 1.9042500000000002,
+      "trapper": 2.1315
+    }
+  }
+]

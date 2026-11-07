@@ -1,0 +1,32 @@
+{
+  "base_samples_per_class": 65536,
+  "additional_samples_per_refined_class": 262144,
+  "total_samples_per_refined_class": 327680,
+  "refined_classes": 3490,
+  "total_classes": 19998,
+  "thresholds": [
+    0.48,
+    0.525,
+    0.56,
+    0.57,
+    0.605,
+    0.64,
+    0.675
+  ],
+  "selection_band": 0.004,
+  "additional_trials": 914882560,
+  "seed_formula": "981237 + canonical_index * 21379",
+  "mean_equity": 0.500009298324585,
+  "max_absolute_change": 0.00717771053314209,
+  "elapsed_seconds": 182.70752541604452,
+  "initial_table_metadata": {
+    "samples_per_class": 65536,
+    "suit_classes": 19998,
+    "total_hands": 376992,
+    "seed_formula": "413887 + canonical_index * 7919",
+    "min_equity": 0.0989837646484375,
+    "max_equity": 0.6973724365234375,
+    "mean_equity": 0.5000209212303162,
+    "elapsed_seconds": 252.2724928748794
+  }
+}

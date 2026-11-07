@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "id": "quad1",
+    "seconds": 0.4243340000975877,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  },
+  {
+    "half": 1,
+    "id": "jesse",
+    "seconds": 0.6350888749584556,
+    "identity": {
+      "participant": "Jesse Park (adapter)",
+      "agent_name": "Flush Theory"
+    }
+  },
+  {
+    "half": 2,
+    "id": "quad1",
+    "seconds": 0.4277668329887092,
+    "identity": {
+      "participant": "YOUR_TEAM_NAME",
+      "agent_name": "ShortDeckEquity"
+    }
+  },
+  {
+    "half": 2,
+    "id": "jesse",
+    "seconds": 0.6312135411426425,
+    "identity": {
+      "participant": "Jesse Park (adapter)",
+      "agent_name": "Flush Theory"
+    }
+  }
+]
