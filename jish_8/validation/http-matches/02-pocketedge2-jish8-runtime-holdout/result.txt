@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_8 (http://localhost:16910)
+agent2 = Datathon2026 / PocketEdge v2 (http://localhost:16911)
+
+Duplicate match: 1000 deals (2000 hands), seed jish8-runtime-holdout
+agent1: +1.556 bb/deal  (std 10.58, stderr 0.334)
+Confidence interval (z=1.96): [+0.900, +2.211] bb/deal
+Reason: interval [+0.900, +2.211] is entirely above 0
+half1: agent1 +491 chips, agent2 -491 chips
+half2: agent1 +2620 chips, agent2 -2620 chips
+Faults:
+  agent1 half1: thinking 0.55s of 8s (wall 2.60s), calls 2858, errors 0
+  agent1 half2: thinking 0.51s of 8s (wall 2.59s), calls 2885, errors 0
+  agent2 half1: thinking 0.06s of 8s (wall 1.80s), calls 3226, errors 0
+  agent2 half2: thinking 0.04s of 8s (wall 1.82s), calls 3294, errors 0
+Speed: 2000 hands in 9.11s (220 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_8 (http://localhost:16910))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

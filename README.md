@@ -1,6 +1,6 @@
 # quad-j poker bots
 
-The default bot at the repository root is **jish_4**, the winner of our latest local round robin. All five versions are preserved in their own folders with their required data files.
+The default bot at the repository root is **jish_4**, the winner of our latest local round robin. All versions are preserved in their own folders with their required data files.
 
 | Folder | Previous name | Strategy |
 |---|---|---|
@@ -11,6 +11,7 @@ The default bot at the repository root is **jish_4**, the winner of our latest l
 | jish_5 | New independent version | Opponent-policy mixture and response tree |
 | jish_6 | Research-spec rebuild | Fresh PLO simulations and mixed range strategy; separate comparison version |
 | jish_7 | Optimization copy of jish_4 | Adaptive betting margins and public-board caller model; experimental |
+| jish_8 | Extreme-opponent optimization copy of jish_4 | Recency-weighted action learning and revised range inference; experimental |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -62,3 +63,7 @@ Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 ## jish_7 optimization experiment
 
 [jish_7](jish_7/README.md) is a separate copy of jish_4 with uncertainty-aware betting and a blocker-sensitive caller-strength reference. Testing covered 284,000 hands. Paired confirmation averaged +0.0474 bb/duplicate deal over jish_4, with a 95% seed-block interval of [-0.0907, +0.1856]: improvement is inconclusive. The point-score comparison was also inconclusive. All 31 tests and six official HTTP runtime checks passed with no errors, forfeits, or exhausted time banks. **jish_4 remains the default.** See [full results](jish_7/validation/REPORT.md) and [professional-hand research notes](jish_7/RESEARCH_NOTES.md).
+
+## jish_8 extreme-opponent experiment
+
+[jish_8](jish_8/README.md) is another preserved copy of jish_4, with recent-action weighting and revised inference from repeated raises, routine calls, and passive checks. Testing covered **520,000 hands**, including constant raisers, calling stations, pressure bettors, traps, and changing styles. The equally weighted real/stress field change was +0.0364 bb/duplicate deal, with a 95% seed-block interval of [-0.1283, +0.2012]. Overall improvement is inconclusive, so **jish_4 remains the default**. The trapping test opponent showed a strong gain, but individual-opponent findings are exploratory. All 45 tests passed. Sixteen official HTTP matches produced 13 wins and 3 draws, with zero errors, forfeits, or exhausted banks. See [full comparisons and limitations](jish_8/validation/REPORT.md).

@@ -1,0 +1,66 @@
+{
+  "selected": "combined",
+  "configuration": [
+    0.99,
+    0.5,
+    true,
+    true
+  ],
+  "development_balanced_change": {
+    "recent": 0.12037500000000001,
+    "repeat": -0.09515000000000003,
+    "uninformative": 0.11265,
+    "combined": 0.17975000000000002,
+    "gentle": 0.08875000000000005
+  },
+  "real_opponents": [
+    "jish_4",
+    "main3",
+    "pocketedge2",
+    "pokerbot2"
+  ],
+  "stress_opponents": [
+    "pot",
+    "half",
+    "station",
+    "fold",
+    "nit",
+    "pressure",
+    "trapper",
+    "polar",
+    "switcher",
+    "random"
+  ],
+  "unseen_styles": [
+    "delayed_pot",
+    "station_maniac"
+  ],
+  "confirmation_seeds": [
+    "jish8-frozen-confirmation-0",
+    "jish8-frozen-confirmation-1",
+    "jish8-frozen-confirmation-2",
+    "jish8-frozen-confirmation-3",
+    "jish8-frozen-confirmation-4",
+    "jish8-frozen-confirmation-5"
+  ],
+  "opponent_order": [
+    "jish_4",
+    "main3",
+    "pocketedge2",
+    "pokerbot2",
+    "pot",
+    "half",
+    "station",
+    "fold",
+    "nit",
+    "pressure",
+    "trapper",
+    "polar",
+    "switcher",
+    "random",
+    "delayed_pot",
+    "station_maniac"
+  ],
+  "frozen_sha256": "1622ee99ac73b86f6daf0126e6327bff0a778b114e80addb6b2a65488cadf8d4",
+  "promotion_rule": "Require all tests and official HTTP checks to pass; 95% Student-t interval across six seed blocks for the equally weighted real/stress field improvement wholly positive; real-field mean positive and corresponding point-change interval nonnegative; no significant regression versus jish_4 or either held-out stress style. Otherwise retain jish_4 as default. No further selection on confirmation results."
+}

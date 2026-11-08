@@ -1,0 +1,59 @@
+{
+  "selected": "combined",
+  "configuration": [
+    0.99,
+    0.5,
+    true,
+    true
+  ],
+  "diagnostic_hands": 20000,
+  "development_hands": 84000,
+  "confirmation_hands": 384000,
+  "http_hands": 32000,
+  "total_hands": 520000,
+  "balanced_field_change": {
+    "mean": 0.03644791666666664,
+    "ci95": [
+      -0.1283413877275716,
+      0.20123722106090486
+    ]
+  },
+  "real_field_change": {
+    "mean": -0.015104166666666703,
+    "ci95": [
+      -0.24758510923878813,
+      0.21737677590545473
+    ]
+  },
+  "stress_field_change": {
+    "mean": 0.08799999999999998,
+    "ci95": [
+      -0.025641112446765105,
+      0.20164111244676508
+    ]
+  },
+  "real_field_points_change": {
+    "mean": -0.020833333333333332,
+    "ci95": [
+      -0.0743871215961404,
+      0.032720454929473744
+    ]
+  },
+  "head_to_head_vs_jish4": {
+    "mean": -0.06616666666666667,
+    "ci95": [
+      -0.3885934779564325,
+      0.2562601446230992
+    ]
+  },
+  "runtime": {
+    "errors": 0,
+    "forfeited_halves": 0,
+    "exhausted_time_banks": 0,
+    "max_candidate_charged_seconds": 0.974959,
+    "max_startup_seconds": 1.4584814999252558
+  },
+  "direct_fallbacks": 0,
+  "tests_passed": true,
+  "promote_default": false
+}

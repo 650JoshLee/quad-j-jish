@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_8 (http://localhost:16912)
+agent2 = YOUR_REGISTERED_TEAM_NAME / Maroon Equity (http://localhost:16913)
+
+Duplicate match: 1000 deals (2000 hands), seed jish8-runtime-holdout
+agent1: +1.302 bb/deal  (std 11.54, stderr 0.365)
+Confidence interval (z=1.96): [+0.587, +2.017] bb/deal
+Reason: interval [+0.587, +2.017] is entirely above 0
+half1: agent1 -82 chips, agent2 +82 chips
+half2: agent1 +2686 chips, agent2 -2686 chips
+Faults:
+  agent1 half1: thinking 0.48s of 8s (wall 2.49s), calls 2791, errors 0
+  agent1 half2: thinking 0.40s of 8s (wall 2.38s), calls 2782, errors 0
+  agent2 half1: thinking 1.16s of 8s (wall 3.84s), calls 3096, errors 0
+  agent2 half2: thinking 0.80s of 8s (wall 3.48s), calls 3174, errors 0
+Speed: 2000 hands in 12.48s (160 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_8 (http://localhost:16912))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

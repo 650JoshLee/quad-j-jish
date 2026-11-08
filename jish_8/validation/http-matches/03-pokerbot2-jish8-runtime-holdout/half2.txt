@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:16912 ...
+waiting for agent2 at http://localhost:16913 ...
+agent1 = quad-j / jish_8 (http://localhost:16912)  (seat 1)
+agent2 = YOUR_REGISTERED_TEAM_NAME / Maroon Equity (http://localhost:16913)  (seat 0)
+
+Half 2: 1000 deals, seed jish8-runtime-holdout
+Chips: agent1 +2686 (+1.343 bb/deal), agent2 -2686
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.40s of 8s (wall 2.38s), calls 2782, errors 0
+  agent2: thinking 0.80s of 8s (wall 3.48s), calls 3174, errors 0
+Speed: 1000 hands in 6.00s (167 hands/s)
+RESULT: HALF_DONE

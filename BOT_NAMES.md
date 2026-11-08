@@ -13,3 +13,5 @@ All teams remain quad-j. Earlier reports retain the names used when those matche
 Current jish_6 is an independent rebuild from the supplied research and official rules, replacing the earlier local experimental jish_6. The previous experimental strategy/model were not reused. The repository default remains jish_4.
 
 jish_7 is a separate optimization copy of jish_4. Its measured improvement is inconclusive, so it is published as experimental; jish_4 remains the repository default.
+
+jish_8 is a separate jish_4 optimization for extreme and changing opponent styles. It remains experimental after 520,000 test hands; jish_4 remains the default.

@@ -1,0 +1,28 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.1",
+    "fastapi": "0.156.1",
+    "uvicorn": "0.54.0",
+    "pytest": "9.2.0",
+    "httpx": "0.28.1"
+  },
+  "sources": {
+    "jish_4": {
+      "agent.py": "6f776e99dc169a4af5eddb03e29593009f05d575b22cfe29f5e625a93b1526f6",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "data/preflop.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d"
+    },
+    "jish_8": {
+      "agent.py": "1622ee99ac73b86f6daf0126e6327bff0a778b114e80addb6b2a65488cadf8d4",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+      "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+      "data/preflop.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:16912 ...
+waiting for agent2 at http://localhost:16913 ...
+agent1 = quad-j / jish_8 (http://localhost:16912)  (seat 0)
+agent2 = Team-quad-j / AdaptiveProfit (http://localhost:16913)  (seat 1)
+
+Half 1: 1000 deals, seed jish8-runtime-holdout
+Chips: agent1 -1375 (-0.688 bb/deal), agent2 +1375
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.85s of 8s (wall 3.13s), calls 3030, errors 0
+  agent2: thinking 4.07s of 8s (wall 6.31s), calls 3030, errors 0
+Speed: 1000 hands in 9.62s (104 hands/s)
+RESULT: HALF_DONE
