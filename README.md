@@ -10,6 +10,7 @@ The default bot at the repository root is **jish_4**, the winner of our latest l
 | jish_4 | jish_new_3 | Bet-selection correction; current default |
 | jish_5 | New independent version | Opponent-policy mixture and response tree |
 | jish_6 | Research-spec rebuild | Fresh PLO simulations and mixed range strategy; separate comparison version |
+| jish_7 | Optimization copy of jish_4 | Adaptive betting margins and public-board caller model; experimental |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -57,3 +58,7 @@ Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 ## Research-spec jish_6
 
 [jish_6](jish_6/README.md) was rebuilt from the supplied research, official guide, and clean starter, without earlier strategy code or trained models. Its final 14-opponent comparison covered 28,000 hands: 3 wins, 7 draws, 4 losses, with zero errors, forfeits, or exhausted time banks. It lost to jish_4, so **jish_4 remains the default**. See [source adaptations](jish_6/RULE_ADAPTATIONS.md), [provenance](jish_6/PROVENANCE.json), and [full results](jish_6/validation/REPORT.md). All 18 tests pass. Docker build verification remains unavailable on the local machine.
+
+## jish_7 optimization experiment
+
+[jish_7](jish_7/README.md) is a separate copy of jish_4 with uncertainty-aware betting and a blocker-sensitive caller-strength reference. Testing covered 284,000 hands. Paired confirmation averaged +0.0474 bb/duplicate deal over jish_4, with a 95% seed-block interval of [-0.0907, +0.1856]: improvement is inconclusive. The point-score comparison was also inconclusive. All 31 tests and six official HTTP runtime checks passed with no errors, forfeits, or exhausted time banks. **jish_4 remains the default.** See [full results](jish_7/validation/REPORT.md) and [professional-hand research notes](jish_7/RESEARCH_NOTES.md).

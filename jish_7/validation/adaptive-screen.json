@@ -1,0 +1,722 @@
+[
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.138,
+    "ci95": [
+      -0.3046821126326314,
+      0.5806821126326314
+    ],
+    "verdict": "CHOP",
+    "hands_won": 478,
+    "hands_lost": 499,
+    "ties": 23,
+    "compute_seconds": [
+      0.7206390690989792,
+      0.7847621054388583
+    ],
+    "direct_charged_seconds": [
+      0.06874748742952932,
+      0.11114541355520471
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.0876612910069525,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "jish_4"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": -0.148,
+    "ci95": [
+      -0.6705020504962115,
+      0.37450205049621144
+    ],
+    "verdict": "CHOP",
+    "hands_won": 481,
+    "hands_lost": 497,
+    "ties": 22,
+    "compute_seconds": [
+      0.7753633388783783,
+      0.7231173515319824
+    ],
+    "direct_charged_seconds": [
+      0.0907138272784649,
+      0.06716974911838759
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 7.2321382919326425,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "main3"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.731,
+    "ci95": [
+      1.4218512398825587,
+      4.040148760117441
+    ],
+    "verdict": "WIN",
+    "hands_won": 464,
+    "hands_lost": 513,
+    "ties": 23,
+    "compute_seconds": [
+      0.9284393016714603,
+      0.9127572306897491
+    ],
+    "direct_charged_seconds": [
+      0.10423075019381924,
+      0.0889958770461379
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.7476859579328448,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "quad2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.7,
+    "ci95": [
+      -0.30329421495567654,
+      1.7032942149556765
+    ],
+    "verdict": "CHOP",
+    "hands_won": 527,
+    "hands_lost": 455,
+    "ties": 18,
+    "compute_seconds": [
+      0.7706561870872974,
+      0.8354602088220417
+    ],
+    "direct_charged_seconds": [
+      0.09565445712953792,
+      0.11259617859683914
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.4080534169916064,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "pocketedge2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 1.47,
+    "ci95": [
+      0.4097152163853668,
+      2.530284783614633
+    ],
+    "verdict": "WIN",
+    "hands_won": 525,
+    "hands_lost": 460,
+    "ties": 15,
+    "compute_seconds": [
+      0.7580290341284126,
+      0.7441467198077589
+    ],
+    "direct_charged_seconds": [
+      0.09077896258234965,
+      0.07834271449595678
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.7319098748266697,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "pokerbot2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.386,
+    "ci95": [
+      -0.02515588216710185,
+      4.797155882167102
+    ],
+    "verdict": "CHOP",
+    "hands_won": 284,
+    "hands_lost": 699,
+    "ties": 17,
+    "compute_seconds": [
+      0.17229779344052076,
+      0.13418230041861534
+    ],
+    "direct_charged_seconds": [
+      0.0025904594529420136,
+      0.004435166958719492
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 0.36376683390699327,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "pot"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": -0.498,
+    "ci95": [
+      -1.9304559941644404,
+      0.9344559941644404
+    ],
+    "verdict": "CHOP",
+    "hands_won": 445,
+    "hands_lost": 529,
+    "ties": 26,
+    "compute_seconds": [
+      0.9409965190570801,
+      0.9928918241057545
+    ],
+    "direct_charged_seconds": [
+      0.08939446001499876,
+      0.12027791955508274
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.5763634159229696,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "pressure"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 1.909,
+    "ci95": [
+      0.7690937241789955,
+      3.048906275821005
+    ],
+    "verdict": "WIN",
+    "hands_won": 506,
+    "hands_lost": 464,
+    "ties": 30,
+    "compute_seconds": [
+      1.0146032338961959,
+      1.068370855646208
+    ],
+    "direct_charged_seconds": [
+      0.11915796126052715,
+      0.13490624129399634
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.7632015419658273,
+    "variant": "adaptive1",
+    "z": 1.0,
+    "opponent": "trapper"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": -0.264,
+    "ci95": [
+      -0.7490955186530117,
+      0.2210955186530117
+    ],
+    "verdict": "CHOP",
+    "hands_won": 479,
+    "hands_lost": 498,
+    "ties": 23,
+    "compute_seconds": [
+      0.7127653383649886,
+      0.6750308109913021
+    ],
+    "direct_charged_seconds": [
+      0.07255270738340905,
+      0.055947381537407546
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.831048791995272,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "jish_4"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.328,
+    "ci95": [
+      -0.27421982635056047,
+      0.9302198263505606
+    ],
+    "verdict": "CHOP",
+    "hands_won": 485,
+    "hands_lost": 492,
+    "ties": 23,
+    "compute_seconds": [
+      0.7542110697831959,
+      0.7304681080859154
+    ],
+    "direct_charged_seconds": [
+      0.08187409427575755,
+      0.07322433234006157
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 7.093283167108893,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "main3"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.411,
+    "ci95": [
+      1.1364952828958845,
+      3.6855047171041155
+    ],
+    "verdict": "WIN",
+    "hands_won": 477,
+    "hands_lost": 503,
+    "ties": 20,
+    "compute_seconds": [
+      0.8636632231064141,
+      0.9104421781376004
+    ],
+    "direct_charged_seconds": [
+      0.07770995245873914,
+      0.10752883818745598
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.5924857498612255,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "quad2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.47,
+    "ci95": [
+      -0.5587127588400955,
+      1.4987127588400955
+    ],
+    "verdict": "CHOP",
+    "hands_won": 522,
+    "hands_lost": 460,
+    "ties": 18,
+    "compute_seconds": [
+      0.710666167549789,
+      0.7465327130630612
+    ],
+    "direct_charged_seconds": [
+      0.06676570872962465,
+      0.07117432500980782
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.114482958102599,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "pocketedge2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 1.298,
+    "ci95": [
+      0.22070833226003117,
+      2.375291667739969
+    ],
+    "verdict": "WIN",
+    "hands_won": 535,
+    "hands_lost": 447,
+    "ties": 18,
+    "compute_seconds": [
+      0.6880569176282734,
+      0.7053158492781222
+    ],
+    "direct_charged_seconds": [
+      0.06033058417960992,
+      0.06867003929056216
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.192954665981233,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "pokerbot2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.314,
+    "ci95": [
+      -0.08201611632145411,
+      4.710016116321454
+    ],
+    "verdict": "CHOP",
+    "hands_won": 283,
+    "hands_lost": 700,
+    "ties": 17,
+    "compute_seconds": [
+      0.1740598725154996,
+      0.13201746763661504
+    ],
+    "direct_charged_seconds": [
+      0.00350779109634459,
+      0.004055792406201362
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 0.3595779170282185,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "pot"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": -0.528,
+    "ci95": [
+      -1.9649505973448145,
+      0.9089505973448144
+    ],
+    "verdict": "CHOP",
+    "hands_won": 446,
+    "hands_lost": 530,
+    "ties": 24,
+    "compute_seconds": [
+      0.909673742717132,
+      0.9862045848276466
+    ],
+    "direct_charged_seconds": [
+      0.07837108100578175,
+      0.11820032832026464
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.518156916135922,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "pressure"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.133,
+    "ci95": [
+      0.9971579505063235,
+      3.2688420494936765
+    ],
+    "verdict": "WIN",
+    "hands_won": 514,
+    "hands_lost": 459,
+    "ties": 27,
+    "compute_seconds": [
+      1.0304002640768886,
+      1.0749528841115534
+    ],
+    "direct_charged_seconds": [
+      0.12181333200819768,
+      0.14190045480616367
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.789293457986787,
+    "variant": "adaptive2",
+    "z": 2.0,
+    "opponent": "trapper"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.008,
+    "ci95": [
+      -0.44035842495670724,
+      0.45635842495670725
+    ],
+    "verdict": "CHOP",
+    "hands_won": 474,
+    "hands_lost": 503,
+    "ties": 23,
+    "compute_seconds": [
+      0.6893276451155543,
+      0.6816867024172097
+    ],
+    "direct_charged_seconds": [
+      0.058133504776284,
+      0.05563579106517127
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.785392292076722,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "jish_4"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.282,
+    "ci95": [
+      -0.2234290421379374,
+      0.7874290421379373
+    ],
+    "verdict": "CHOP",
+    "hands_won": 493,
+    "hands_lost": 483,
+    "ties": 24,
+    "compute_seconds": [
+      0.7258694667834789,
+      0.715491721406579
+    ],
+    "direct_charged_seconds": [
+      0.06933208311907936,
+      0.06620874807052303
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 6.9421655419282615,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "main3"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.829,
+    "ci95": [
+      1.6123733185101414,
+      4.045626681489859
+    ],
+    "verdict": "WIN",
+    "hands_won": 489,
+    "hands_lost": 490,
+    "ties": 21,
+    "compute_seconds": [
+      0.8418427293654531,
+      0.8894549950491637
+    ],
+    "direct_charged_seconds": [
+      0.07453524778597045,
+      0.09789842050336287
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.5172289998736233,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "quad2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 0.842,
+    "ci95": [
+      -0.14822210004120784,
+      1.8322221000412078
+    ],
+    "verdict": "CHOP",
+    "hands_won": 532,
+    "hands_lost": 451,
+    "ties": 17,
+    "compute_seconds": [
+      0.7118171274196357,
+      0.7293832323048264
+    ],
+    "direct_charged_seconds": [
+      0.06650211817398656,
+      0.06605274984054256
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.092131083132699,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "pocketedge2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 1.021,
+    "ci95": [
+      -0.04092070045597751,
+      2.0829207004559773
+    ],
+    "verdict": "CHOP",
+    "hands_won": 531,
+    "hands_lost": 454,
+    "ties": 15,
+    "compute_seconds": [
+      0.7012475291267037,
+      0.7048551158513874
+    ],
+    "direct_charged_seconds": [
+      0.07063957861810913,
+      0.06404670927301039
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 3.2562315831892192,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "pokerbot2"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 2.474,
+    "ci95": [
+      0.06912265138519791,
+      4.878877348614802
+    ],
+    "verdict": "WIN",
+    "hands_won": 283,
+    "hands_lost": 700,
+    "ties": 17,
+    "compute_seconds": [
+      0.17075274023227394,
+      0.13258135272189975
+    ],
+    "direct_charged_seconds": [
+      0.003106290156021714,
+      0.0039779173769056795
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 0.3568955829832703,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "pot"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": -0.412,
+    "ci95": [
+      -1.844875834821437,
+      1.020875834821437
+    ],
+    "verdict": "CHOP",
+    "hands_won": 441,
+    "hands_lost": 533,
+    "ties": 26,
+    "compute_seconds": [
+      0.932511740596965,
+      0.9624042811337858
+    ],
+    "direct_charged_seconds": [
+      0.08310453765839323,
+      0.0998632433470337
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.520794792100787,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "pressure"
+  },
+  {
+    "seed": "jish7-development-A",
+    "deals": 500,
+    "hands": 1000,
+    "mean_bb": 1.857,
+    "ci95": [
+      0.717756347728159,
+      2.9962436522718408
+    ],
+    "verdict": "WIN",
+    "hands_won": 506,
+    "hands_lost": 463,
+    "ties": 31,
+    "compute_seconds": [
+      1.0423006848432124,
+      1.0957185071893036
+    ],
+    "direct_charged_seconds": [
+      0.12557507351413347,
+      0.14924074293300485
+    ],
+    "fallbacks": [
+      0,
+      0
+    ],
+    "elapsed_seconds": 2.833465958945453,
+    "variant": "adaptive3",
+    "z": 3.0,
+    "opponent": "trapper"
+  }
+]

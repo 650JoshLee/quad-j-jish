@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_7 (http://localhost:15910)
+agent2 = quad-j / jish_4 (http://localhost:15911)
+
+Duplicate match: 1000 deals (2000 hands), seed jish7-runtime-holdout
+agent1: +0.059 bb/deal  (std 6.74, stderr 0.213)
+Confidence interval (z=1.96): [-0.359, +0.477] bb/deal
+Reason: interval [-0.359, +0.477] includes 0
+half1: agent1 +141 chips, agent2 -141 chips
+half2: agent1 -23 chips, agent2 +23 chips
+Faults:
+  agent1 half1: thinking 0.69s of 8s (wall 2.73s), calls 2915, errors 0
+  agent1 half2: thinking 0.96s of 8s (wall 3.07s), calls 2870, errors 0
+  agent2 half1: thinking 0.44s of 8s (wall 2.43s), calls 2892, errors 0
+  agent2 half2: thinking 0.63s of 8s (wall 2.76s), calls 2952, errors 0
+Speed: 2000 hands in 11.30s (177 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

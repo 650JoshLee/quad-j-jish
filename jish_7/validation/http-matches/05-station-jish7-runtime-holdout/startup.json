@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "bot": 1,
+    "seconds": 1.6559299579821527,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_7"
+    }
+  },
+  {
+    "half": 1,
+    "bot": 2,
+    "seconds": 0.16226933291181922,
+    "identity": {
+      "participant": "Challenges Team",
+      "agent_name": "CallingStation"
+    }
+  },
+  {
+    "half": 2,
+    "bot": 1,
+    "seconds": 1.6575320831034333,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_7"
+    }
+  },
+  {
+    "half": 2,
+    "bot": 2,
+    "seconds": 0.2174310409463942,
+    "identity": {
+      "participant": "Challenges Team",
+      "agent_name": "CallingStation"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "configuration": {
+    "confidence": 1.0,
+    "adaptive": true,
+    "public_reference": true
+  },
+  "development_hands": 80000,
+  "confirmation_matches": 96,
+  "confirmation_hands": 192000,
+  "http_matches": 6,
+  "http_hands": 12000,
+  "total_hands": 284000,
+  "field_chip_change": {
+    "mean": 0.04741666666666672,
+    "ci95": [
+      -0.09073091846869477,
+      0.1855642518020282
+    ]
+  },
+  "field_point_change": {
+    "mean": 0.010416666666666666,
+    "ci95": [
+      -0.038957486507873326,
+      0.059790819841206655
+    ]
+  },
+  "head_to_head_vs_jish4": {
+    "mean": 0.0355,
+    "ci95": [
+      -0.18937792139009996,
+      0.26037792139009996
+    ]
+  },
+  "runtime": {
+    "errors": 0,
+    "forfeited_halves": 0,
+    "exhausted_time_banks": 0,
+    "opponent_errors": 0,
+    "opponent_forfeits": 0,
+    "opponent_exhausted_banks": 0,
+    "max_charged_seconds": 1.488365,
+    "max_startup_seconds": 1.7766999998129904
+  },
+  "promote_default": false,
+  "original_rule": "All tests and final HTTP timing checks pass; the 95% Student-t interval of equal-weight field chip improvement across six independent seed blocks is wholly positive; the corresponding point-change interval is nonnegative; no clear head-to-head regression against jish_4. Otherwise publish as experimental and retain jish_4."
+}

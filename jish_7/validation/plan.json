@@ -1,0 +1,39 @@
+{
+  "selected": "public_adaptive1",
+  "configuration": {
+    "confidence": 1.0,
+    "adaptive": true,
+    "public_reference": true
+  },
+  "development_changes": {
+    "mild": -0.0031250000000000167,
+    "medium": -0.14575000000000002,
+    "strong": 0.032875000000000015,
+    "adaptive1": 0.12099999999999995,
+    "adaptive2": 0.05524999999999997,
+    "adaptive3": 0.147625,
+    "public": -0.04775000000000005,
+    "public_adaptive1": 0.16712499999999997,
+    "public_adaptive3": -0.012124999999999976
+  },
+  "confirmation_seeds": [
+    "jish7-confirmation-block-0",
+    "jish7-confirmation-block-1",
+    "jish7-confirmation-block-2",
+    "jish7-confirmation-block-3",
+    "jish7-confirmation-block-4",
+    "jish7-confirmation-block-5"
+  ],
+  "default_promotion_rule": "All tests and final HTTP timing checks pass; the 95% Student-t interval of equal-weight field chip improvement across six independent seed blocks is wholly positive; the corresponding point-change interval is nonnegative; no clear head-to-head regression against jish_4. Otherwise publish as experimental and retain jish_4.",
+  "opponent_order": [
+    "jish_4",
+    "main3",
+    "quad2",
+    "pocketedge2",
+    "pokerbot2",
+    "pot",
+    "pressure",
+    "trapper"
+  ],
+  "frozen_agent_sha256": "74242fc90f5ae12f1ed60687bc9a15b588fd58f96582c6072e3a1905000a5fae"
+}

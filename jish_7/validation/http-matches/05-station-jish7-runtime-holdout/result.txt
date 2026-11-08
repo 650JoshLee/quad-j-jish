@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_7 (http://localhost:15912)
+agent2 = Challenges Team / CallingStation (http://localhost:15913)
+
+Duplicate match: 1000 deals (2000 hands), seed jish7-runtime-holdout
+agent1: +12.380 bb/deal  (std 16.78, stderr 0.531)
+Confidence interval (z=1.96): [+11.339, +13.420] bb/deal
+Reason: interval [+11.339, +13.420] is entirely above 0
+half1: agent1 +11001 chips, agent2 -11001 chips
+half2: agent1 +13758 chips, agent2 -13758 chips
+Faults:
+  agent1 half1: thinking 1.47s of 8s (wall 4.80s), calls 3987, errors 0
+  agent1 half2: thinking 1.49s of 8s (wall 4.82s), calls 3984, errors 0
+  agent2 half1: thinking 0.02s of 8s (wall 1.32s), calls 4769, errors 0
+  agent2 half2: thinking 0.01s of 8s (wall 1.31s), calls 4781, errors 0
+Speed: 2000 hands in 12.73s (157 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_7 (http://localhost:15912))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN
