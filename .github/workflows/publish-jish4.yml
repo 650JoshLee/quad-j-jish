@@ -1,0 +1,64 @@
+name: Publish tested jish_4 container
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-jish4.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  packages: write
+jobs:
+  build-and-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: amd64
+            runner: ubuntu-24.04
+          - arch: arm64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and smoke-test the exact image to publish
+        working-directory: jish_4
+        env:
+          PLATFORM: linux/${{ matrix.arch }}
+          SMOKE_CPUS: '1'
+          SMOKE_MEMORY: 4g
+        run: bash tools/check_build.sh
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish the tested image
+        env:
+          IMAGE: ghcr.io/650joshlee/quad-j-jish
+          ARCH: ${{ matrix.arch }}
+        run: |
+          docker tag poker-agent-check:latest "$IMAGE:jish_4-$ARCH-$GITHUB_SHA"
+          docker push "$IMAGE:jish_4-$ARCH-$GITHUB_SHA"
+          docker image inspect "$IMAGE:jish_4-$ARCH-$GITHUB_SHA" --format '{{json .RepoDigests}}'
+  publish-multiarch:
+    needs: build-and-test
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish one tag for both supported architectures
+        env:
+          IMAGE: ghcr.io/650joshlee/quad-j-jish
+        run: |
+          docker buildx imagetools create \
+            --tag "$IMAGE:jish_4" \
+            --tag "$IMAGE:jish_4-$GITHUB_SHA" \
+            "$IMAGE:jish_4-amd64-$GITHUB_SHA" \
+            "$IMAGE:jish_4-arm64-$GITHUB_SHA"
+          docker buildx imagetools inspect "$IMAGE:jish_4"
