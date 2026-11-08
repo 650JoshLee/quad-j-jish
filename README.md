@@ -1,6 +1,6 @@
 # quad-j poker bots
 
-The default bot at the repository root is **jish_4**, the winner of our latest local round robin. All versions are preserved in their own folders with their required data files.
+The default bot at the repository root is **jish_4**, retained after subsequent candidates failed the broad-test promotion criteria. All versions are preserved in their own folders with their required data files.
 
 | Folder | Previous name | Strategy |
 |---|---|---|
@@ -13,6 +13,7 @@ The default bot at the repository root is **jish_4**, the winner of our latest l
 | jish_7 | Optimization copy of jish_4 | Adaptive betting margins and public-board caller model; experimental |
 | jish_8 | Extreme-opponent optimization copy of jish_4 | Recency-weighted action learning and revised range inference; experimental |
 | jish_9 | Broad-field optimization copy of jish_4 | Evidence-gated preflop raises; experimental |
+| jish_10 | Independent Slumbot-inspired experiment | Current-street regret-matching solver; experimental, weaker in validation |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -51,7 +52,7 @@ A match covers 2,000 hands using 1,000 duplicate deals. Restart both bots before
 python -m pytest -q
 ```
 
-See [the latest full tournament table](tournament-results/REPORT.md): 12 bots, 66 matches, 132,000 hands. jish_4 finished first with 9.5 points; jish_5 finished fifth with 7 points. No errors, forfeits, or exhausted time banks occurred. These are results from one seed, not a guarantee of future rankings. The report documents the Jesse Park adapter and identical PocketEdge submissions.
+See [the archived 12-bot tournament table](tournament-results/REPORT.md): 12 bots, 66 matches, 132,000 hands. jish_4 finished first with 9.5 points; jish_5 finished fifth with 7 points. No errors, forfeits, or exhausted time banks occurred. These are results from one seed, not a guarantee of future rankings. The report documents the Jesse Park adapter and identical PocketEdge submissions.
 
 Root code and model files match jish_4. Earlier strategies and data were retained. Individual bot notes explain their changes and historical tests. Docker verification requires Docker to be running: ./tools/check_build.sh. Local HTTP testing passed; a Docker build has not been certified.
 
@@ -72,3 +73,7 @@ Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 ## jish_9 broad-field experiment
 
 [jish_9](jish_9/README.md) adds two observed-behavior gates to preflop raises while retaining jish_4's calling and betting thresholds. **920,000 test hands** covered development, eight frozen confirmation blocks against 18 opponents, and official HTTP checks. The balanced real/stress chip improvement was +0.0794 bb/duplicate deal, 95% interval [+0.0202, +0.1385]. With newer AdaptiveProfit excluded it remained +0.0686 [+0.0061, +0.1310]. However, the held-out delayed-aggression bot exposed a -0.4235 bb/deal regression, and real-field tournament-point improvement was inconclusive. **jish_4 remains the default; jish_9 is experimental.** All 46 tests passed and final HTTP checks had zero errors, forfeits, or exhausted banks. See [full results and promotion criteria](jish_9/validation/REPORT.md).
+
+## Independent jish_10 solver experiment
+
+[jish_10](jish_10/README.md) independently applies Slumbot-inspired regret minimization to a small current-street Omaha abstraction. **235,600 test hands** included three development configurations, paired fresh comparisons against 19 opponents, and 19 official HTTP matches. Its balanced field performance was **2.6238 bb/duplicate deal worse than jish_4**, with a 95% seed-block interval of [-3.7140, -1.5337]. It lost both fresh direct matches to jish_4 and both to jish_8. Official HTTP results were 7 wins, 6 draws, 6 losses, with zero errors, forfeits, or exhausted banks. **jish_4 remains the default; jish_10 is experimental.** All 1,121 checked files in the prior local bots were preserved. See [results](jish_10/validation/REPORT.md) and [research/limitations](jish_10/RESEARCH_NOTES.md). No Slumbot policy or older jish strategy/model was copied.

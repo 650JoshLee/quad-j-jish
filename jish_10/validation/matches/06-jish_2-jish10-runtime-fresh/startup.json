@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "bot": 1,
+    "seconds": 1.7271009581163526,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_10"
+    }
+  },
+  {
+    "half": 1,
+    "bot": 2,
+    "seconds": 1.3342880420386791,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_2"
+    }
+  },
+  {
+    "half": 2,
+    "bot": 1,
+    "seconds": 1.6549150419887155,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_10"
+    }
+  },
+  {
+    "half": 2,
+    "bot": 2,
+    "seconds": 1.3482717499136925,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_2"
+    }
+  }
+]

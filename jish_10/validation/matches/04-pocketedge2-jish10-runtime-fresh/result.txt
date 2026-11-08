@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_10 (http://localhost:19910)
+agent2 = Datathon2026 / PocketEdge v2 (http://localhost:19911)
+
+Duplicate match: 1000 deals (2000 hands), seed jish10-runtime-fresh
+agent1: +0.073 bb/deal  (std 8.22, stderr 0.260)
+Confidence interval (z=1.96): [-0.436, +0.582] bb/deal
+Reason: interval [-0.436, +0.582] includes 0
+half1: agent1 -323 chips, agent2 +323 chips
+half2: agent1 +469 chips, agent2 -469 chips
+Faults:
+  agent1 half1: thinking 0.77s of 8s (wall 3.69s), calls 3308, errors 0
+  agent1 half2: thinking 0.61s of 8s (wall 3.47s), calls 3257, errors 0
+  agent2 half1: thinking 0.07s of 8s (wall 2.05s), calls 3310, errors 0
+  agent2 half2: thinking 0.01s of 8s (wall 1.87s), calls 3259, errors 0
+Speed: 2000 hands in 11.40s (175 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

@@ -1,0 +1,54 @@
+{
+  "development_hands": 45600,
+  "confirmation_hands": 152000,
+  "official_HTTP_hands": 38000,
+  "total_hands": 235600,
+  "selected": {
+    "scores": {
+      "base": 0.6154166666666666,
+      "wide": 0.241986111111111,
+      "tight_ranges": 0.39638888888888885
+    },
+    "selected": "base",
+    "agent_sha256": "1a338d25d7ac150b3019ab7a4331337ced9b09e653791a009e46dd41e4639d5f"
+  },
+  "blocks": [
+    {
+      "seed": "jish10-fresh-confirm-0",
+      "balanced_chip_gain": -2.5380416666666665,
+      "balanced_point_gain": -0.37777777777777777,
+      "real_chip_gain": -2.3263333333333334,
+      "stress_chip_gain": -2.74975
+    },
+    {
+      "seed": "jish10-fresh-confirm-1",
+      "balanced_chip_gain": -2.7096305555555555,
+      "balanced_point_gain": -0.3527777777777778,
+      "real_chip_gain": -2.2616111111111112,
+      "stress_chip_gain": -3.15765
+    }
+  ],
+  "chip_gain": -2.6238361111111113,
+  "chip_gain_95_seed_block_t_interval": [
+    -3.713957887433601,
+    -1.5337143347886217
+  ],
+  "point_gain": -0.3652777777777778,
+  "point_gain_95_seed_block_t_interval": [
+    -0.5241053369777776,
+    -0.20645021857777804
+  ],
+  "http_verdicts": {
+    "AGENT2_WIN": 6,
+    "CHOP": 6,
+    "AGENT1_WIN": 7
+  },
+  "http_errors": 0,
+  "http_forfeits": 0,
+  "http_exhausted_banks": 0,
+  "max_bank_seconds": 0.851824,
+  "max_startup_seconds": 1.7769203330390155,
+  "default": "jish_4",
+  "status": "experimental",
+  "preserved_prior_files": 1121
+}

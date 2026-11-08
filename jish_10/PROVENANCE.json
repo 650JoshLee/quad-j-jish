@@ -1,0 +1,20 @@
+{
+  "team": "quad-j",
+  "bot": "jish_10",
+  "official_starter_commit": "c83ab6eeb7660a2fd1fae7df224315d41fe985a9",
+  "strategy": "Independent implementation; no previous jish policy or trained data",
+  "sources": [
+    "https://github.com/tamu-datathon-org/heads-up-bundle",
+    "https://docs.google.com/document/d/1D1ruabeQ25scYg97ehBMnzA9fqaEWWsnFDfOmrLme4E/edit",
+    "https://cdn.aaai.org/ocs/ws/ws0979/7044-30516-1-PB.pdf",
+    "https://github.com/ericgjackson/slumbot2019"
+  ],
+  "unchanged_official_files": {
+    "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+    "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+    "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+    "docker/Dockerfile.agent": "6baea809885f97fd50187d437009bb9ac38d5d0855e29e71dcf1194b4c2ce186",
+    "docker/Dockerfile.base": "d54f26ad44236c8a90308286e7de703d9e8c3916e6baa77d3a6fc3c56ab04d15"
+  },
+  "agent_sha256": "1a338d25d7ac150b3019ab7a4331337ced9b09e653791a009e46dd41e4639d5f"
+}

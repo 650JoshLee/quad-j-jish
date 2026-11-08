@@ -1,0 +1,29 @@
+{
+  "independent": true,
+  "development": {
+    "variants": [
+      "base",
+      "wide",
+      "tight_ranges"
+    ],
+    "seeds": 2,
+    "deals_per_match": 200,
+    "opponents": 19
+  },
+  "selection": "highest equally weighted real/stress mean across development seeds",
+  "confirmation": {
+    "fresh_seeds": 2,
+    "deals_per_match": 1000,
+    "policies": [
+      "selected_jish_10",
+      "jish_4"
+    ],
+    "opponents": 19
+  },
+  "runtime": {
+    "official_HTTP": true,
+    "deals": 1000,
+    "opponents": 19
+  },
+  "promotion": "Require positive 95% seed-block interval for balanced field chip improvement and tournament point improvement; no significant direct loss to jish_4 or jish_8 and no material opponent regression. Otherwise publish experimental, retain jish_4."
+}
