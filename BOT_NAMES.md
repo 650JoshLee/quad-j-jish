@@ -15,3 +15,5 @@ Current jish_6 is an independent rebuild from the supplied research and official
 jish_7 is a separate optimization copy of jish_4. Its measured improvement is inconclusive, so it is published as experimental; jish_4 remains the repository default.
 
 jish_8 is a separate jish_4 optimization for extreme and changing opponent styles. It remains experimental after 520,000 test hands; jish_4 remains the default.
+
+jish_9 is a broad-field jish_4 experiment with behavior-gated preflop raises. It improved balanced chip profit, but failed the regression and tournament-point promotion checks. jish_4 remains the default.

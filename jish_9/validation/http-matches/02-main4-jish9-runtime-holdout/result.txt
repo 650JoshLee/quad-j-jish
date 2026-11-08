@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_9 (http://localhost:17910)
+agent2 = Team-quad-j / AdaptiveProfit (http://localhost:17911)
+
+Duplicate match: 1000 deals (2000 hands), seed jish9-runtime-holdout
+agent1: -1.115 bb/deal  (std 12.93, stderr 0.409)
+Confidence interval (z=1.96): [-1.916, -0.314] bb/deal
+Reason: interval [-1.916, -0.314] is entirely below 0
+half1: agent1 -1913 chips, agent2 +1913 chips
+half2: agent1 -317 chips, agent2 +317 chips
+Faults:
+  agent1 half1: thinking 0.39s of 8s (wall 2.68s), calls 3288, errors 0
+  agent1 half2: thinking 0.39s of 8s (wall 2.66s), calls 3286, errors 0
+  agent2 half1: thinking 0.29s of 8s (wall 2.39s), calls 3135, errors 0
+  agent2 half2: thinking 0.47s of 8s (wall 2.55s), calls 3072, errors 0
+Speed: 2000 hands in 10.58s (189 hands/s)
+
+============================================================
+  VERDICT: AGENT2 WINS  (Team-quad-j / AdaptiveProfit (http://localhost:17911))
+  Points: agent1 0, agent2 1
+============================================================
+RESULT: AGENT2_WIN

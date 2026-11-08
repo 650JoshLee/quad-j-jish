@@ -1,0 +1,70 @@
+{
+  "selected": "targeted_preflop",
+  "configuration": {
+    "_BUTTON_OPEN": 0.48,
+    "_MARGIN_SCALE": 1.0,
+    "_CALL_DISCOUNT": 0.0,
+    "_STYLE_ADAPTIVE": false,
+    "_AVOID_MARGINAL_REPOP": true,
+    "_PASSIVE_ISOLATION": true
+  },
+  "development_hands": 308000,
+  "confirmation_hands": 576000,
+  "http_hands": 36000,
+  "total_hands": 920000,
+  "balanced_field_change": {
+    "mean": 0.07936067708333333,
+    "ci95": [
+      0.020185511814825502,
+      0.13853584235184116
+    ]
+  },
+  "excluding_main4_change": {
+    "mean": 0.06857734374999999,
+    "ci95": [
+      0.006111349920500622,
+      0.13104333757949937
+    ]
+  },
+  "real_field_change": {
+    "mean": 0.051416666666666666,
+    "ci95": [
+      -0.013215087380173893,
+      0.11604842071350722
+    ]
+  },
+  "stress_field_change": {
+    "mean": 0.1073046875,
+    "ci95": [
+      0.028314754748616708,
+      0.18629462025138327
+    ]
+  },
+  "real_field_points_change": {
+    "mean": 0.020833333333333332,
+    "ci95": [
+      -0.011416873878131655,
+      0.053083540544798316
+    ]
+  },
+  "head_to_head_vs_jish4": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "clear_material_regressions": [
+    "delayed_pot"
+  ],
+  "runtime": {
+    "errors": 0,
+    "forfeited_halves": 0,
+    "exhausted_time_banks": 0,
+    "max_candidate_charged_seconds": 1.102604,
+    "max_startup_seconds": 1.6830537908244878
+  },
+  "direct_fallbacks": 0,
+  "tests_passed": true,
+  "promote_default": false
+}

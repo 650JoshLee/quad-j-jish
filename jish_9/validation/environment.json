@@ -1,0 +1,29 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.4",
+    "numba": "0.68.1",
+    "fastapi": "0.156.1",
+    "uvicorn": "0.54.0",
+    "pytest": "9.2.0",
+    "httpx": "0.28.1"
+  },
+  "sources": {
+    "outputs/jish_4": {
+      "agent.py": "6f776e99dc169a4af5eddb03e29593009f05d575b22cfe29f5e625a93b1526f6",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4"
+    },
+    "outputs/jish_9": {
+      "agent.py": "99167b5a82ed178529b44e01ecc9d8a027df4c98f950706af1c14f3278e6cd23",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4"
+    },
+    "work/jish9/main4": {
+      "agent.py": "ee4aed515f62daf6c70628381689646f362b7874c82dfe393ba16bd7fb2147d6",
+      "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+      "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4"
+    }
+  }
+}

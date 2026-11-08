@@ -1,0 +1,156 @@
+{
+  "real_opponents": [
+    "jish_4",
+    "main3",
+    "main4",
+    "quad2",
+    "pocketedge2",
+    "pokerbot2"
+  ],
+  "stress_opponents": [
+    "pot",
+    "station",
+    "nit",
+    "pressure",
+    "trapper",
+    "polar",
+    "switcher",
+    "random"
+  ],
+  "holdout_real": [
+    "jish_2",
+    "jish_6"
+  ],
+  "holdout_stress": [
+    "delayed_pot",
+    "station_maniac"
+  ],
+  "opponent_order": [
+    "jish_4",
+    "main3",
+    "main4",
+    "quad2",
+    "pocketedge2",
+    "pokerbot2",
+    "jish_2",
+    "jish_6",
+    "pot",
+    "station",
+    "nit",
+    "pressure",
+    "trapper",
+    "polar",
+    "switcher",
+    "random",
+    "delayed_pot",
+    "station_maniac"
+  ],
+  "confirmation_seeds": [
+    "jish9-frozen-validation-0",
+    "jish9-frozen-validation-1",
+    "jish9-frozen-validation-2",
+    "jish9-frozen-validation-3",
+    "jish9-frozen-validation-4",
+    "jish9-frozen-validation-5",
+    "jish9-frozen-validation-6",
+    "jish9-frozen-validation-7"
+  ],
+  "selection_rule": "Select highest 50/50 real/stress chip improvement averaged across two development seeds, among variants with positive improvement when main4 is excluded; if none qualify, choose highest aggregate only as an experimental candidate.",
+  "promotion_rule": "All unit and official HTTP checks pass, no fallbacks. Across eight fresh seed blocks, the 95% Student-t intervals for balanced real/stress improvement AND the same score excluding main4 must be wholly positive. Real-field and stress-field mean improvements must both be nonnegative; real-field match-point improvement interval must be nonnegative. No opponent may show a clear regression worse than 0.25 bb/duplicate deal (upper 95% bound below -0.25), including held-out opponents. No clearly negative head-to-head against jish_4. Otherwise publish experimental and retain jish_4. No further candidate selection using final results.",
+  "selected": "targeted_preflop",
+  "configuration": {
+    "_BUTTON_OPEN": 0.48,
+    "_MARGIN_SCALE": 1.0,
+    "_CALL_DISCOUNT": 0.0,
+    "_STYLE_ADAPTIVE": false,
+    "_AVOID_MARGINAL_REPOP": true,
+    "_PASSIVE_ISOLATION": true
+  },
+  "development_scores": {
+    "repop_guard": {
+      "balanced": -0.006729166666666673,
+      "excluding_main4": -0.012162500000000003,
+      "blocks": [
+        0.014729166666666689,
+        -0.028187500000000035
+      ]
+    },
+    "passive_value": {
+      "balanced": 0.02066666666666668,
+      "excluding_main4": 0.02972500000000001,
+      "blocks": [
+        0.07845833333333335,
+        -0.03712499999999999
+      ]
+    },
+    "targeted_preflop": {
+      "balanced": 0.04510416666666668,
+      "excluding_main4": 0.054962500000000004,
+      "blocks": [
+        0.10360416666666669,
+        -0.013395833333333336
+      ]
+    },
+    "limp": {
+      "balanced": -0.3542291666666667,
+      "excluding_main4": -0.3771125,
+      "blocks": [
+        -0.06637500000000002,
+        -0.6420833333333333
+      ]
+    },
+    "thin": {
+      "balanced": 0.019093749999999965,
+      "excluding_main4": -0.03658125000000004,
+      "blocks": [
+        -0.049458333333333326,
+        0.08764583333333326
+      ]
+    },
+    "defend": {
+      "balanced": -0.12562500000000001,
+      "excluding_main4": -0.09465000000000001,
+      "blocks": [
+        -0.34358333333333335,
+        0.09233333333333332
+      ]
+    },
+    "mild_combined": {
+      "balanced": -0.5131145833333334,
+      "excluding_main4": -0.56888125,
+      "blocks": [
+        -0.3753958333333333,
+        -0.6508333333333334
+      ]
+    },
+    "broad_combined": {
+      "balanced": -0.30905208333333345,
+      "excluding_main4": -0.35449375000000005,
+      "blocks": [
+        -0.32722916666666674,
+        -0.2908750000000001
+      ]
+    },
+    "adaptive": {
+      "balanced": -0.15537500000000004,
+      "excluding_main4": -0.16547500000000004,
+      "blocks": [
+        -0.008541666666666666,
+        -0.3022083333333334
+      ]
+    },
+    "adaptive_cautious": {
+      "balanced": -0.3365000000000001,
+      "excluding_main4": -0.3065750000000001,
+      "blocks": [
+        -0.20229166666666676,
+        -0.4707083333333334
+      ]
+    }
+  },
+  "development_eligible": [
+    "passive_value",
+    "targeted_preflop"
+  ],
+  "frozen_sha256": "99167b5a82ed178529b44e01ecc9d8a027df4c98f950706af1c14f3278e6cd23"
+}

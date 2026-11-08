@@ -1,0 +1,60 @@
+{
+  "real_opponents": [
+    "jish_4",
+    "main3",
+    "main4",
+    "quad2",
+    "pocketedge2",
+    "pokerbot2"
+  ],
+  "stress_opponents": [
+    "pot",
+    "station",
+    "nit",
+    "pressure",
+    "trapper",
+    "polar",
+    "switcher",
+    "random"
+  ],
+  "holdout_real": [
+    "jish_2",
+    "jish_6"
+  ],
+  "holdout_stress": [
+    "delayed_pot",
+    "station_maniac"
+  ],
+  "opponent_order": [
+    "jish_4",
+    "main3",
+    "main4",
+    "quad2",
+    "pocketedge2",
+    "pokerbot2",
+    "jish_2",
+    "jish_6",
+    "pot",
+    "station",
+    "nit",
+    "pressure",
+    "trapper",
+    "polar",
+    "switcher",
+    "random",
+    "delayed_pot",
+    "station_maniac"
+  ],
+  "confirmation_seeds": [
+    "jish9-frozen-validation-0",
+    "jish9-frozen-validation-1",
+    "jish9-frozen-validation-2",
+    "jish9-frozen-validation-3",
+    "jish9-frozen-validation-4",
+    "jish9-frozen-validation-5",
+    "jish9-frozen-validation-6",
+    "jish9-frozen-validation-7"
+  ],
+  "selection_rule": "Select highest 50/50 real/stress chip improvement averaged across two development seeds, among variants with positive improvement when main4 is excluded; if none qualify, choose highest aggregate only as an experimental candidate.",
+  "promotion_rule": "All unit and official HTTP checks pass, no fallbacks. Across eight fresh seed blocks, the 95% Student-t intervals for balanced real/stress improvement AND the same score excluding main4 must be wholly positive. Real-field and stress-field mean improvements must both be nonnegative; real-field match-point improvement interval must be nonnegative. No opponent may show a clear regression worse than 0.25 bb/duplicate deal (upper 95% bound below -0.25), including held-out opponents. No clearly negative head-to-head against jish_4. Otherwise publish experimental and retain jish_4. No further candidate selection using final results."
+}

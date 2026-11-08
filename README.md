@@ -12,6 +12,7 @@ The default bot at the repository root is **jish_4**, the winner of our latest l
 | jish_6 | Research-spec rebuild | Fresh PLO simulations and mixed range strategy; separate comparison version |
 | jish_7 | Optimization copy of jish_4 | Adaptive betting margins and public-board caller model; experimental |
 | jish_8 | Extreme-opponent optimization copy of jish_4 | Recency-weighted action learning and revised range inference; experimental |
+| jish_9 | Broad-field optimization copy of jish_4 | Evidence-gated preflop raises; experimental |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -67,3 +68,7 @@ Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 ## jish_8 extreme-opponent experiment
 
 [jish_8](jish_8/README.md) is another preserved copy of jish_4, with recent-action weighting and revised inference from repeated raises, routine calls, and passive checks. Testing covered **520,000 hands**, including constant raisers, calling stations, pressure bettors, traps, and changing styles. The equally weighted real/stress field change was +0.0364 bb/duplicate deal, with a 95% seed-block interval of [-0.1283, +0.2012]. Overall improvement is inconclusive, so **jish_4 remains the default**. The trapping test opponent showed a strong gain, but individual-opponent findings are exploratory. All 45 tests passed. Sixteen official HTTP matches produced 13 wins and 3 draws, with zero errors, forfeits, or exhausted banks. See [full comparisons and limitations](jish_8/validation/REPORT.md).
+
+## jish_9 broad-field experiment
+
+[jish_9](jish_9/README.md) adds two observed-behavior gates to preflop raises while retaining jish_4's calling and betting thresholds. **920,000 test hands** covered development, eight frozen confirmation blocks against 18 opponents, and official HTTP checks. The balanced real/stress chip improvement was +0.0794 bb/duplicate deal, 95% interval [+0.0202, +0.1385]. With newer AdaptiveProfit excluded it remained +0.0686 [+0.0061, +0.1310]. However, the held-out delayed-aggression bot exposed a -0.4235 bb/deal regression, and real-field tournament-point improvement was inconclusive. **jish_4 remains the default; jish_9 is experimental.** All 46 tests passed and final HTTP checks had zero errors, forfeits, or exhausted banks. See [full results and promotion criteria](jish_9/validation/REPORT.md).

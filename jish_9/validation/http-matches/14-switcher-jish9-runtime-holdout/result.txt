@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_9 (http://localhost:17910)
+agent2 = quad-j / stress_switcher (http://localhost:17911)
+
+Duplicate match: 1000 deals (2000 hands), seed jish9-runtime-holdout
+agent1: +2.235 bb/deal  (std 21.71, stderr 0.687)
+Confidence interval (z=1.96): [+0.889, +3.581] bb/deal
+Reason: interval [+0.889, +3.581] is entirely above 0
+half1: agent1 +2717 chips, agent2 -2717 chips
+half2: agent1 +1753 chips, agent2 -1753 chips
+Faults:
+  agent1 half1: thinking 0.21s of 8s (wall 1.79s), calls 2734, errors 0
+  agent1 half2: thinking 0.25s of 8s (wall 1.87s), calls 2713, errors 0
+  agent2 half1: thinking 0.00s of 8s (wall 0.98s), calls 2590, errors 0
+  agent2 half2: thinking 0.01s of 8s (wall 1.05s), calls 2530, errors 0
+Speed: 2000 hands in 5.96s (336 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_9 (http://localhost:17910))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN
