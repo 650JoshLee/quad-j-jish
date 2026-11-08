@@ -1,0 +1,41 @@
+name: Final poker bot container checks
+on:
+  push:
+    paths:
+      - 'jish_12/agent.py'
+      - 'jish_12/data/**'
+      - 'jish_12/requirements*.txt'
+      - 'jish_12/tests/**'
+      - '.github/workflows/final-bot-check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-container-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        bot: [jish_4, jish_12]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify Python 3.12 dependencies and tests
+        working-directory: ${{ matrix.bot }}
+        env:
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+          NUMBA_NUM_THREADS: '1'
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m pytest test_agent.py tests -q
+      - name: Official build and restricted container smoke test
+        working-directory: ${{ matrix.bot }}
+        env:
+          PLATFORM: linux/amd64
+          SMOKE_CPUS: '1'
+          SMOKE_MEMORY: 4g
+        run: bash tools/check_build.sh
