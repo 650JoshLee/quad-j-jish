@@ -1,0 +1,38 @@
+[
+  {
+    "half": 1,
+    "bot": 1,
+    "seconds": 1.3992513748817146,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_12"
+    }
+  },
+  {
+    "half": 1,
+    "bot": 2,
+    "seconds": 0.32093887496739626,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  },
+  {
+    "half": 2,
+    "bot": 1,
+    "seconds": 1.3366487082093954,
+    "identity": {
+      "participant": "quad-j",
+      "agent_name": "jish_12"
+    }
+  },
+  {
+    "half": 2,
+    "bot": 2,
+    "seconds": 0.32012020889669657,
+    "identity": {
+      "participant": "YOUR_REGISTERED_TEAM_NAME",
+      "agent_name": "Maroon Equity"
+    }
+  }
+]

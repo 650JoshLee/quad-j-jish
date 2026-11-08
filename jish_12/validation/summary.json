@@ -1,0 +1,98 @@
+{
+  "development_hands": 91200,
+  "confirmation_hands": 512000,
+  "official_HTTP_hands": 64000,
+  "total_hands": 667200,
+  "selected": {
+    "scores": {
+      "control": 3.532354166666667,
+      "context_16": 3.5781597222222223,
+      "context_32": 3.5762708333333335,
+      "bluff_32": 3.592909722222222,
+      "combined_16": 3.6221875,
+      "combined_32": 3.5922430555555556
+    },
+    "selected": "combined_16",
+    "context_learning": true,
+    "bluff_gate": true,
+    "min_evidence": 16,
+    "agent_sha256": "9e0006fe0d1ae1e51c93cc14c7de610b6489cdd957ed5be7620e138b5b9f9904"
+  },
+  "blocks": [
+    {
+      "seed": "jish12-fresh-confirm-0",
+      "balanced_chip_gain": -0.033461111111111046,
+      "balanced_point_gain": 0.0,
+      "real_chip_gain": -0.10722222222222219,
+      "stress_chip_gain": 0.0403000000000001
+    },
+    {
+      "seed": "jish12-fresh-confirm-1",
+      "balanced_chip_gain": -0.07387222222222223,
+      "balanced_point_gain": 0.0,
+      "real_chip_gain": -0.18894444444444444,
+      "stress_chip_gain": 0.041199999999999994
+    },
+    {
+      "seed": "jish12-fresh-confirm-2",
+      "balanced_chip_gain": -0.17455833333333334,
+      "balanced_point_gain": -0.027777777777777776,
+      "real_chip_gain": -0.19866666666666666,
+      "stress_chip_gain": -0.15045000000000003
+    },
+    {
+      "seed": "jish12-fresh-confirm-3",
+      "balanced_chip_gain": 0.014799999999999931,
+      "balanced_point_gain": 0.0,
+      "real_chip_gain": 0.018999999999999975,
+      "stress_chip_gain": 0.010599999999999887
+    }
+  ],
+  "chip_gain": -0.06677291666666667,
+  "chip_gain_95_seed_block_t_interval": [
+    -0.19483726502529142,
+    0.06129143169195807
+  ],
+  "point_gain": -0.006944444444444444,
+  "point_gain_95_seed_block_t_interval": [
+    -0.029044766006944445,
+    0.015155877118055557
+  ],
+  "real_chip_gain": -0.11895833333333333,
+  "stress_chip_gain": -0.014587500000000012,
+  "http_verdicts": {
+    "CHOP": 9,
+    "AGENT2_WIN": 2,
+    "AGENT1_WIN": 21
+  },
+  "http_errors": 0,
+  "http_forfeits": 0,
+  "http_exhausted_banks": 0,
+  "max_bank_seconds": 1.183134,
+  "max_startup_seconds": 1.7335033330600709,
+  "material_regressions": [],
+  "direct_losses": [
+    "jish_8"
+  ],
+  "direct_fallbacks": 0,
+  "container_ci": {
+    "id": 42458430682,
+    "head_sha": "bc6522a7374e524c7037feb9b9cefa3e7aa6d124",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/650JoshLee/quad-j-jish/actions/runs/42458430682"
+  },
+  "promotion_checks": {
+    "positive_chip_interval": false,
+    "positive_point_interval": false,
+    "nonnegative_real_mean": false,
+    "nonnegative_stress_mean": false,
+    "no_material_regression": true,
+    "no_clear_direct_loss": false,
+    "runtime_clean": true,
+    "container_checks_passed": true
+  },
+  "default": "jish_4",
+  "status": "experimental",
+  "preserved_prior_files": 1562
+}

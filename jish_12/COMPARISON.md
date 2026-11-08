@@ -1,3 +1,3 @@
 # jish_12 comparisons
 
-Final results will be in validation/REPORT.md. Earlier jish_4 reports are preserved in the original folder and are not results for this candidate.
+See [validation/REPORT.md](validation/REPORT.md) for final results. The new version remains experimental; jish_4 stays the default.

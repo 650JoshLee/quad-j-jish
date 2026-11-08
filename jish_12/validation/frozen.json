@@ -1,0 +1,15 @@
+{
+  "scores": {
+    "control": 3.532354166666667,
+    "context_16": 3.5781597222222223,
+    "context_32": 3.5762708333333335,
+    "bluff_32": 3.592909722222222,
+    "combined_16": 3.6221875,
+    "combined_32": 3.5922430555555556
+  },
+  "selected": "combined_16",
+  "context_learning": true,
+  "bluff_gate": true,
+  "min_evidence": 16,
+  "agent_sha256": "9e0006fe0d1ae1e51c93cc14c7de610b6489cdd957ed5be7620e138b5b9f9904"
+}

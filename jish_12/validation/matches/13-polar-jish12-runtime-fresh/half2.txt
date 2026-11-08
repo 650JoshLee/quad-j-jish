@@ -1,0 +1,13 @@
+waiting for agent1 at http://localhost:23912 ...
+waiting for agent2 at http://localhost:23913 ...
+agent1 = quad-j / jish_12 (http://localhost:23912)  (seat 1)
+agent2 = quad-j / stress_polar (http://localhost:23913)  (seat 0)
+
+Half 2: 1000 deals, seed jish12-runtime-fresh
+Chips: agent1 +1974 (+0.987 bb/deal), agent2 -1974
+(One half is mostly card luck; combine both halves for the verdict.)
+Faults:
+  agent1: thinking 0.86s of 8s (wall 3.25s), calls 3231, errors 0
+  agent2: thinking 0.07s of 8s (wall 1.78s), calls 3419, errors 0
+Speed: 1000 hands in 5.21s (192 hands/s)
+RESULT: HALF_DONE

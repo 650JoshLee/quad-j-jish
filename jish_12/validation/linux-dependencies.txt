@@ -1,0 +1,77 @@
+WARNING: The directory '/Users/josh/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting fastapi==0.156.1 (from -r outputs/jish_12/requirements.txt (line 1))
+  Downloading fastapi-0.156.1-py3-none-any.whl.metadata (26 kB)
+Collecting uvicorn==0.54.0 (from -r outputs/jish_12/requirements.txt (line 2))
+  Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting numpy==2.5.4 (from -r outputs/jish_12/requirements.txt (line 3))
+  Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting numba==0.68.1 (from -r outputs/jish_12/requirements.txt (line 4))
+  Downloading numba-0.68.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.8 kB)
+Collecting starlette>=0.46.0 (from fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading starlette-1.10.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting pydantic>=2.9.0 (from fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading pydantic-2.14.3-py3-none-any.whl.metadata (141 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting opentelemetry-api>=1.44.0 (from fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+Collecting click>=7.0 (from uvicorn==0.54.0->-r outputs/jish_12/requirements.txt (line 2))
+  Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn==0.54.0->-r outputs/jish_12/requirements.txt (line 2))
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba==0.68.1->-r outputs/jish_12/requirements.txt (line 4))
+  Downloading llvmlite-0.50.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.1 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.4 (from pydantic>=2.9.0->fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.6 kB)
+Collecting anyio<5,>=4.0.0 (from starlette>=0.46.0->fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting idna>=2.8 (from anyio<5,>=4.0.0->starlette>=0.46.0->fastapi==0.156.1->-r outputs/jish_12/requirements.txt (line 1))
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Downloading fastapi-0.156.1-py3-none-any.whl (146 kB)
+Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 38.2 MB/s  0:00:00
+Downloading numba-0.68.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 57.4 MB/s  0:00:00
+Downloading llvmlite-0.50.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (59.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 42.9 MB/s  0:00:01
+Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Downloading click-8.5.1-py3-none-any.whl (126 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+Downloading pydantic-2.14.3-py3-none-any.whl (494 kB)
+Downloading pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 52.9 MB/s  0:00:00
+Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading starlette-1.10.0-py3-none-any.whl (80 kB)
+Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading typing_inspection-0.4.5-py3-none-any.whl (14 kB)
+Saved ./work/jish12/linux-wheels/fastapi-0.156.1-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/uvicorn-0.54.0-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+Saved ./work/jish12/linux-wheels/numba-0.68.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+Saved ./work/jish12/linux-wheels/llvmlite-0.50.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+Saved ./work/jish12/linux-wheels/annotated_doc-0.0.5-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/click-8.5.1-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/h11-0.16.0-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/opentelemetry_api-1.45.2-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/pydantic-2.14.3-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Saved ./work/jish12/linux-wheels/annotated_types-0.8.0-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/starlette-1.10.0-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/anyio-4.16.0-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/idna-3.20-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/typing_extensions-4.16.0-py3-none-any.whl
+Saved ./work/jish12/linux-wheels/typing_inspection-0.4.5-py3-none-any.whl
+Successfully downloaded fastapi uvicorn numpy numba llvmlite annotated-doc click h11 opentelemetry-api pydantic pydantic-core annotated-types starlette anyio idna typing-extensions typing-inspection
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: /Users/josh/Documents/Codex/2026-11-07/https-github-com-tamu-datathon-org-2/work/venv/bin/python -m pip install --upgrade pip

@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_12 (http://localhost:23912)
+agent2 = TotallyAwesomeDatathonParticipant / stress_fast_switch (http://localhost:23913)
+
+Duplicate match: 1000 deals (2000 hands), seed jish12-runtime-fresh
+agent1: +9.508 bb/deal  (std 23.09, stderr 0.730)
+Confidence interval (z=1.96): [+8.077, +10.939] bb/deal
+Reason: interval [+8.077, +10.939] is entirely above 0
+half1: agent1 +12478 chips, agent2 -12478 chips
+half2: agent1 +6538 chips, agent2 -6538 chips
+Faults:
+  agent1 half1: thinking 0.49s of 8s (wall 2.95s), calls 3577, errors 0
+  agent1 half2: thinking 0.44s of 8s (wall 2.86s), calls 3559, errors 0
+  agent2 half1: thinking 0.00s of 8s (wall 0.83s), calls 3563, errors 0
+  agent2 half2: thinking 0.00s of 8s (wall 0.79s), calls 3494, errors 0
+Speed: 2000 hands in 7.76s (258 hands/s)
+
+============================================================
+  VERDICT: AGENT1 WINS  (quad-j / jish_12 (http://localhost:23912))
+  Points: agent1 1, agent2 0
+============================================================
+RESULT: AGENT1_WIN

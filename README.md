@@ -15,6 +15,7 @@ The default bot at the repository root is **jish_4**, retained after subsequent 
 | jish_9 | Broad-field optimization copy of jish_4 | Evidence-gated preflop raises; experimental |
 | jish_10 | Independent Slumbot-inspired experiment | Current-street regret-matching solver; experimental, weaker in validation |
 | jish_11 | Targeted jish_4 improvements | Size-aware responses, bluff raises, and one re-raise branch; experimental |
+| jish_12 | Final conservative jish_4 adjustment | Evidence-gated contextual learning and bluff raises; experimental |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -55,7 +56,7 @@ python -m pytest -q
 
 See [the archived 12-bot tournament table](tournament-results/REPORT.md): 12 bots, 66 matches, 132,000 hands. jish_4 finished first with 9.5 points; jish_5 finished fifth with 7 points. No errors, forfeits, or exhausted time banks occurred. These are results from one seed, not a guarantee of future rankings. The report documents the Jesse Park adapter and identical PocketEdge submissions.
 
-Root code and model files match jish_4. Earlier strategies and data were retained. Individual bot notes explain their changes and historical tests. Docker verification requires Docker to be running: ./tools/check_build.sh. Local HTTP testing passed; a Docker build has not been certified.
+Root code and model files match jish_4. Earlier strategies and data were retained. Individual bot notes explain their changes and historical tests. Docker verification requires Docker to be running: ./tools/check_build.sh. Local HTTP testing passed. The official Docker build/smoke check for jish_4 and jish_12 also passed in the final GitHub Actions validation linked below.
 
 Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 
@@ -83,6 +84,12 @@ Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 
 [jish_11](jish_11/README.md) copies jish_4 and adds size-conditioned response learning, evaluates raises before folding weak hands, and models one opponent re-raise followed by our fold/call response. **487,200 test hands** covered six development variants, four fresh paired blocks against 22 opponents, and 22 official HTTP matches. Balanced field change versus jish_4 was -0.0557 bb/duplicate deal, 95% interval [-0.1226, +0.0112]; broad improvement is unproven. Held-out size-sensitive folding and bet-then-fold opponents improved by +5.3834 and +1.7673 bb/deal respectively, while real-field performance declined on average. All 31 tests passed. HTTP outcomes: 16 wins, 3 draws, 3 losses, with zero errors, forfeits, or exhausted banks. All 1,362 checked prior local bot files were preserved. **jish_4 remains the default; jish_11 is experimental.** See [full comparison](jish_11/validation/REPORT.md) and [strategy limitations](jish_11/BOT_NOTES.md).
 
-## Final jish_12 candidate (validation in progress)
+## Final jish_12 audit and experiment
 
-[jish_12](jish_12/README.md) is a separate jish_4 copy with evidence-gated contextual response learning and bluff evaluation. The selected code is frozen for fresh broad-field validation. All 38 local tests pass; Python 3.12 Linux dependency wheels resolve. The new CI workflow attempts the official constrained Docker build/smoke check for both jish_4 and jish_12 on standard free public-repository runners. **jish_4 remains the default while final validation is in progress.** Results will be added without changing the frozen strategy unless a correctness problem requires a new validation run.
+[jish_12](jish_12/README.md) copies jish_4 and adds evidence-gated contextual response learning and bluff evaluation. **667,200 hands** covered development, four frozen confirmation blocks against 32 opponents, and official HTTP tests. The balanced primary-field change versus jish_4 was -0.0668 bb/duplicate deal, 95% interval [-0.1948, +0.0613]; broad improvement is not established. Official HTTP outcomes: 21 wins, 9 draws, 2 losses, with zero errors, forfeits or exhausted banks. All 38 local tests pass. **jish_4 remains the default; jish_12 is experimental.** The [audit](jish_12/AUDIT.md) records unresolved strategy limitations and a deceptive-history regression. See [full results](jish_12/validation/REPORT.md).
+
+Both **jish_4 and jish_12 passed the official Docker build and constrained smoke check** on Python 3.12/Linux, one CPU, 4 GB RAM, no network, read-only root and limited /tmp in [GitHub Actions run 42458430682](https://github.com/650JoshLee/quad-j-jish/actions/runs/42458430682). This verifies the tested build/smoke conditions, not an entire tournament on every possible machine. The official source and Google participant guide were re-fetched and unchanged.
+
+## Public practice image
+
+Team A publication is complete: `ghcr.io/650joshlee/quad-j-jish:jish_4` is publicly pullable, with native amd64 and arm64 builds that both passed the official constrained-container smoke check. See [commands for your friend](DOCKER_MATCHES.md) and the [publishing run](https://github.com/650JoshLee/quad-j-jish/actions/runs/42458999699). The image contains unchanged jish_4 and its model data.

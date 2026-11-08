@@ -27,3 +27,7 @@ This audit checks the implementation and tests plausible weaknesses. It cannot e
 Official rules: https://github.com/tamu-datathon-org/heads-up-bundle and the supplied participant guide. The starter container uses Python 3.12, one CPU, 4 GB RAM, no runtime internet, read-only files except /tmp (512 MB), and a 3 GB added-image limit. Server stack versions are unchanged. Match checks use 40BB stacks, 1,000 duplicate deals, fresh processes per half, an 8-second bank, and the official request/error rules.
 
 The container job uses only standard runners on the public repository. GitHub documents these as free: https://docs.github.com/en/actions/concepts/billing-and-usage . It is a validation workflow, not deployment or paid training.
+
+## Verified container result
+
+Both jish_4 and the frozen jish_12 passed Python 3.12 tests and the official constrained Docker build/smoke check in [GitHub run 42458430682](https://github.com/650JoshLee/quad-j-jish/actions/runs/42458430682), source commit bc6522a7374e524c7037feb9b9cefa3e7aa6d124. This verifies the tested build and smoke conditions, not a full tournament on every deployment machine. The official repository HEAD and supplied Google guide were re-fetched during this final audit and are unchanged from the validated snapshots.

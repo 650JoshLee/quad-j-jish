@@ -1,0 +1,30 @@
+{
+  "baseline": "jish_4",
+  "development": {
+    "configurations": [
+      "control",
+      "context_16",
+      "context_32",
+      "bluff_32",
+      "combined_16",
+      "combined_32"
+    ],
+    "seeds": 2,
+    "deals": 200,
+    "opponents": 19
+  },
+  "selection": "Highest equally weighted real/stress chip mean among five new configurations; control is diagnostic. Freeze before confirmation.",
+  "confirmation": {
+    "fresh_seed_blocks": 4,
+    "deals": 1000,
+    "policies": [
+      "selected jish_12",
+      "jish_4"
+    ],
+    "primary_opponents": 19,
+    "additional_regression_opponents": "All remaining jish versions, previous structured size/bluff opponents, and three new adversarial opponents"
+  },
+  "runtime": "Official HTTP fresh-half tests against complete confirmation field; Python 3.12 Linux wheel availability checked; attempt official constrained Docker smoke check through free GitHub Actions on public repository.",
+  "promotion": "Require positive 95% seed-block t intervals for balanced chip and point gains, nonnegative real/stress means, no material opponent regression (upper interval below -0.25 bb/deal), no clear direct loss to jish_4/jish_7/jish_8/jish_9, no runtime failures, and container check success. Otherwise publish experimental and retain jish_4.",
+  "scope": "No claim to find every possible weakness or solve poker; audit known strategy/runtime risks, preserve old versions and document remaining limitations."
+}
