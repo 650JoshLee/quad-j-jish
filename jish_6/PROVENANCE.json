@@ -1,0 +1,15 @@
+{
+  "allowed_sources": {
+    "research": "RESEARCH_SPEC.txt",
+    "repository": "https://github.com/tamu-datathon-org/heads-up-bundle",
+    "official_commit": "c83ab6eeb7660a2fd1fae7df224315d41fe985a9",
+    "guide": "https://docs.google.com/document/d/1D1ruabeQ25scYg97ehBMnzA9fqaEWWsnFDfOmrLme4E/edit"
+  },
+  "research_sha256": "a8f6e414231f3ab60df3ab4e8cca85815162e580ad729efaf43ccb766c564c14",
+  "guide_sha256": "3af84f50f670d33af22846be003b89e28ef76c9e270898e5b6b93101273d18e0",
+  "agent_sha256": "49e0106995438da0cdd14d9fd73013165fcde22e69b0a64849bd9d158745da0e",
+  "model_sha256": "520a676c9dca5887ad86bc416117e58e3b02fe85c39bcb6a04a4d718e2269be8",
+  "prior_bot_strategy_or_model_reused": false,
+  "older_bots_used_only_as_opponents": true,
+  "final_test_seed": "research-spec-holdout-B"
+}

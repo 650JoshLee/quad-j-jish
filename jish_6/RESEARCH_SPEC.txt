@@ -1,0 +1,238 @@
+HEADS-UP NO-LIMIT HOLD'EM STRATEGY (100bb DEEP) - BOT SPEC
+Numbers are approximate targets. Solver output shifts with bet sizes, stack depth, rake.
+
+=====================================================
+0. PRIME DIRECTIVES
+=====================================================
+1. Think in RANGES, never single hands.
+2. Position is the biggest edge. Button acts last postflop.
+3. Aggression wins. Most flops miss both players, so the player who bets and raises more wins more uncontested pots.
+4. Base = near-equilibrium (unexploitable). Exploitation = small deviations only when evidence is strong.
+5. Randomize. Same hand must sometimes take different actions (mixed strategy).
+6. Stack depth changes everything: 100bb, 40bb, 20bb, <10bb are different games.
+7. Never fold too much. Over-folding gives away the blinds.
+
+=====================================================
+1. KEY FORMULAS
+=====================================================
+Pot odds (equity needed to call)   = call / (pot + call)
+Minimum Defense Frequency (MDF)    = pot / (pot + bet)
+Bluff share of betting range       = bet / (pot + 2*bet)
+SPR                                = effective stack / pot
+
+Bet size      | Equity to call | MDF  | Bluffs in betting range
+33% pot       | 20%            | 75%  | 20%
+50% pot       | 25%            | 67%  | 25%
+75% pot       | 30%            | 57%  | 30%
+100% pot      | 33%            | 50%  | 33%
+150% pot      | 37.5%          | 40%  | 37.5%
+200% pot      | 40%            | 33%  | 40%
+
+SPR guide: 1-3 = top pair+ is committed. 4-6 = top pair strong but careful. 10+ = need strong hands to stack off.
+
+=====================================================
+2. PREFLOP (100bb)
+=====================================================
+Positions: Button = Small Blind (SB). Acts FIRST preflop, LAST postflop. Other player = Big Blind (BB).
+
+2A. BUTTON OPEN
+- Open 80-100% of hands. Only the worst offsuit trash (72o, 82o, 83o, 92o, 93o, 73o) is borderline/mixed.
+- Raise size: 2-2.5bb.
+- Limping is a valid mixed option with medium/weak hands that play well postflop (suited connectors, small pairs, weak suited aces). Raising everything is simpler and strong.
+
+2B. BB DEFENSE vs 2.5bb open
+- Defend 60-70% of hands. Needs ~28-30% equity.
+- CALL: all pairs not 3-bet, all suited hands, connected hands, most aces, most kings, many queens/jacks.
+- FOLD: worst offsuit hands (J2o-, T3o-, 94o-, 85o-, 74o-, etc.).
+- 3-BET 12-18%, split into:
+  VALUE: AA, KK, QQ, JJ, TT, 99, AKs, AKo, AQs, AQo, some AJs, KQs.
+  BLUFFS: A5s-A2s, K5s-K2s, some suited connectors (76s, 65s), Q9s/J9s type hands. Prefer blockers to calling range with decent equity when called.
+- 3-bet size: 7-10bb OOP (about 3.5-4x the open).
+
+2C. BUTTON vs 3-BET
+- Continue 50-65% of opening range.
+- 4-BET 8-12%: value AA, KK, QQ, AKs, AKo. Bluffs A5s-A2s, some suited broadways.
+- CALL: JJ-66, AQ, AJs, KQs, suited broadways, suited connectors, pairs with position.
+- FOLD: weakest opens.
+- 4-bet size: 20-22bb.
+- Against frequent 3-bettors: widen 4-bet bluffs and calls.
+
+2D. BB vs 4-BET
+- Jam/call with top of range (AA, KK, QQ, AK). Fold most bluffs unless opponent over-4-bets.
+- 5-bet all-in with AA-QQ, AK, plus a few blocker bluffs (A5s).
+
+=====================================================
+3. SHORTER STACKS
+=====================================================
+20-40bb:
+- Smaller opens (2bb or less), smaller 3-bets, many hands become 3-bet-or-fold instead of call.
+- Low SPR, so jams common, overbets rare.
+
+10-20bb:
+- SB mixes raise-fold and jam. Limping gets worse (BB can jam over it).
+- BB defends wide vs small raises, shoves over limps with a polar range.
+
+Under 10bb (PUSH/FOLD):
+- SB jams ~65-100% of hands depending on depth.
+- BB calls ~50-65% at 8bb. Use exact Nash push/fold charts by stack size.
+
+=====================================================
+4. RANGE vs NUT ADVANTAGE (decides who bets and how big)
+=====================================================
+Range advantage (higher average equity): bet OFTEN and SMALL.
+Nut advantage (more of the very best hands): bet BIG and polarized.
+Capped range (no strongest hands): check or bet small, avoid big bets.
+
+Preflop raiser usually has the advantage on high-card boards (A-high, K-high, Q-high).
+Defender has more of the advantage on low connected boards (7-6-5, 8-7-4, 6-5-3).
+
+=====================================================
+5. FLOP PLAN BY TEXTURE
+=====================================================
+Dry high (A-7-2r, K-8-3r, Q-6-2r):
+  Aggressor bets ~85-100% of range, SMALL (25-33% pot).
+Medium (J-8-4 two-tone, Q-9-5 two-tone, K-T-4):
+  Mixed bet/check, sizes 33-66%, check some strong hands to protect check range.
+Very wet (9-8-7 two-tone, T-9-6 two-tone, J-T-9):
+  Aggressor checks more, bets larger (66-100%) with polarized range.
+Low / middle (7-4-2, 6-5-3):
+  Defender's range is strong. Aggressor mixes many checks.
+Paired (K-K-4, 7-7-2, A-A-6):
+  Aggressor bets small (25-33%) with a wide range.
+Monotone (all one suit):
+  Small bets, high frequency for whoever holds the top flush cards. Lots of checks otherwise.
+Ace-high boards: huge c-bet for the raiser. King/queen-high: still strong.
+
+=====================================================
+6. BY SITUATION
+=====================================================
+6A. Button, preflop raiser, in position (single-raised pot)
+- C-bet 60-85% (higher on dry boards).
+- Small size on boards that favor you, large when you have nut advantage.
+- Bet: value + bluffs + weak showdown hands that need protection.
+- Check back: medium-strength hands with showdown value, plus some strong hands to protect the check range.
+
+6B. BB 3-bettor, out of position
+- C-bet less. Mostly small bets or checks.
+- Keep bluffs that block calls and have backdoor draws.
+
+6C. Button defending vs BB 3-bet/raise, in position
+- Call wide. Raise some draws and strong hands.
+- Float with backdoor equity and bet when checked to later.
+
+6D. BB defending out of position
+- CHECK-RAISE 8-14% on flop: strong made hands + strong draws (flush draws, open-enders, combo draws).
+- CHECK-CALL: medium made hands and weaker draws.
+- DONK BET rarely, but fine on boards where you have nut advantage (low/middle boards).
+- Check-raise size ~3x the bet (about 3.5x out of position).
+
+6E. 3-bet pots (SPR ~4-5)
+- Top pair is often a stack-off hand.
+- Aggressor c-bets small and often.
+
+6F. 4-bet pots (SPR ~1-2)
+- Money usually goes in on flop with decent hands. Plan stack-offs in advance.
+
+=====================================================
+7. TURN
+=====================================================
+- Ranges become polarized. Bet larger (66-100%) with strong value and good bluffs. Check back marginal hands.
+- DOUBLE BARREL with: draws, overcards with backdoor flush, and on cards that improve YOUR range more than theirs.
+- CHECK BACK blanks that help the defender.
+- Defend near MDF, but fold bottom-of-range hands with no equity.
+- PROBE (BB bets into button who checked flop) with a polarized range, especially after cards that help you.
+- DELAYED C-BET: check flop in position, bet turn. Opponent's checking range is capped.
+
+=====================================================
+8. RIVER
+=====================================================
+- Ranges are polarized: nuts, strong value, or bluffs.
+- VALUE BET THIN. Heads-up ranges are wide, so second pair and top pair weak kicker often have value.
+- BLUFF with blockers: hold cards that block the opponent's calling hands and unblock their folding hands (example: ace of a flush suit when flush is possible).
+- BLUFF-CATCH with hands that beat bluffs and lose to value. Use MDF as the baseline. Call MORE vs aggressive opponents.
+- SIZING: big (75-150% pot, even overbets) with nut advantage. Small when targeting thin calls.
+- Don't bluff calling stations. Don't call tight players who only bet the nuts.
+- Bluff-to-value ratios: use the table in section 1.
+
+=====================================================
+9. SPECIAL TACTICS
+=====================================================
+Check-raising: do it with BOTH bluffs and value or your check range is weak and readable. Best on boards where the aggressor's range is weak or who bets too many weak hands.
+Overbetting: with a big nut advantage when the opponent has many bluff-catchers. 150-200% pot needs ~40-45% bluffs to be balanced.
+Slowplaying: rare. Mostly on very dry boards (K-7-2r) so your checking range contains strong hands. Almost never on wet boards (free cards).
+Floating: call a bet planning to bet later. Best in position vs players who give up on later streets.
+Blind stealing: you post a blind every hand, so unopposed pots are worth a lot. Apply constant pressure.
+
+=====================================================
+10. EXPLOIT TABLE
+=====================================================
+Opponent tendency               -> Exploit
+Folds too much preflop          -> Raise more, 3-bet bluff more, steal relentlessly
+Calls too much (station)        -> Stop bluffing, value bet thinner and bigger, raise for value
+Over-aggressive                 -> Call down lighter, check-raise more, trap
+Too passive                     -> Bluff when they check, fold to their big bets
+Folds to c-bets too often       -> C-bet 100% of range
+Never folds to c-bets           -> C-bet only for value or with equity
+Doesn't bluff river             -> Fold bluff-catchers to river bets
+Bluffs river too much           -> Call wide with any bluff-catcher
+Over-folds to 3-bets            -> 3-bet very wide
+Never 4-bets                    -> 3-bet for value more, fold less to nothing
+Sizing tells (small=weak, big=strong) -> Fold/call accordingly
+Min-raises everything           -> Call wide, mix in 3-bets
+
+Exploitation rules:
+- Adjust gradually. Deviate more as the sample grows.
+- Track: fold-to-3-bet, c-bet %, fold-to-c-bet, river raise %, etc.
+- Small samples lie. Don't swing hard after 20 hands.
+- Beware opponents who change gears. Keep the baseline sound.
+
+=====================================================
+11. BEATING OTHER BOTS
+=====================================================
+Typical bot weaknesses:
+- Fixed bet sizes -> map each size to a hand strength.
+- Bad handling of off-tree sizes -> try 35% pot, 1.7x pot, 3.1x raise. They round to the nearest known size and make mistakes.
+- No randomization -> same hand always does the same thing, so pattern is readable.
+- Threshold rules ("raise if equity > X") -> bet when they are just below the threshold.
+- Folds too much or calls too much to all-ins.
+- One stack depth only -> play at other depths.
+
+Vs a strong equilibrium bot:
+- You cannot reliably exploit it. Best result is break-even.
+- Edge only comes from finer bet sizes, better card abstraction, and real-time re-solving.
+
+=====================================================
+12. META-STRATEGY FOR A BOT THAT DOESN'T LOSE
+=====================================================
+1. Unexploitable core: correct MDF, correct bluff ratios, balanced ranges by street, mixed actions.
+2. Cover bet sizes: small, medium, large, overbet, all-in. Map odd opponent sizes to the nearest ones.
+3. Button far more aggressive than BB.
+4. Separate strategies for 100bb, 40bb, 20bb, and push/fold.
+5. Exploit only with strong evidence and limited deviation.
+6. Randomize so hand strength is never revealed by a pattern.
+7. Test vs: very aggressive, very passive, tight, loose, and equilibrium-style opponents.
+
+=====================================================
+13. COMMON MISTAKES
+=====================================================
+- Playing too tight preflop
+- Giving up after one called c-bet
+- Never check-raising
+- Over-bluffing players who rarely fold
+- Paying off rivers vs passive players who only bet the nuts
+- Ignoring stack depth
+- Sizing tells (big with strong, small with weak)
+- Using one bet size for everything
+- Folding too much vs aggression (ignoring MDF)
+- Treating short results as proof (variance is huge)
+
+=====================================================
+14. QUICK CHEAT SHEET
+=====================================================
+Button: raise 85-100%, c-bet 65-80%, constant pressure.
+BB: defend 60-70% vs small raise, 3-bet 12-18% polarized, check-raise 8-14%.
+Sizes: small (25-40%) when range advantage, large (66-150%) when polarized.
+Defense: MDF = pot/(pot+bet). Bluffs = bet/(pot+2*bet).
+River: thin value, blocker bluffs, bluff-catch vs aggression.
+Short stacks: push/fold charts under ~10bb.
+Exploit: more bluffs vs folders, more value vs callers, call down vs aggressors, fold to passive players' big bets.

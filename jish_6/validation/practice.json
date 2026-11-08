@@ -1,0 +1,78 @@
+[
+  {
+    "style": "call",
+    "deals": 1000,
+    "mean_bb_per_duplicate": 11.8345,
+    "ci95": [
+      10.842990325690238,
+      12.826009674309763
+    ],
+    "hands": [
+      961,
+      963,
+      76
+    ],
+    "compute_seconds": [
+      4.047371534863487,
+      3.9776906531769782
+    ],
+    "seed": "research-practice-1"
+  },
+  {
+    "style": "half",
+    "deals": 1000,
+    "mean_bb_per_duplicate": 8.652,
+    "ci95": [
+      7.144465661732823,
+      10.159534338267177
+    ],
+    "hands": [
+      644,
+      1337,
+      19
+    ],
+    "compute_seconds": [
+      2.841215066378936,
+      2.664271298330277
+    ],
+    "seed": "research-practice-1"
+  },
+  {
+    "style": "pot",
+    "deals": 1000,
+    "mean_bb_per_duplicate": 5.859,
+    "ci95": [
+      4.192383689784636,
+      7.525616310215364
+    ],
+    "hands": [
+      625,
+      1347,
+      28
+    ],
+    "compute_seconds": [
+      2.0825191133189946,
+      2.0394909288734198
+    ],
+    "seed": "research-practice-1"
+  },
+  {
+    "style": "random",
+    "deals": 1000,
+    "mean_bb_per_duplicate": 5.9005,
+    "ci95": [
+      4.588514709151432,
+      7.212485290848568
+    ],
+    "hands": [
+      1059,
+      926,
+      15
+    ],
+    "compute_seconds": [
+      2.140971994260326,
+      2.0566857324447483
+    ],
+    "seed": "research-practice-1"
+  }
+]

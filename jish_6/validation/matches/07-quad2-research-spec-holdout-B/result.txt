@@ -1,0 +1,21 @@
+agent1 = quad-j / jish_6 (http://localhost:15812)
+agent2 = Team-quad-j / AdaptiveProfit (http://localhost:15813)
+
+Duplicate match: 1000 deals (2000 hands), seed research-spec-holdout-B
+agent1: +0.310 bb/deal  (std 7.54, stderr 0.238)
+Confidence interval (z=1.96): [-0.157, +0.778] bb/deal
+Reason: interval [-0.157, +0.778] includes 0
+half1: agent1 +1685 chips, agent2 -1685 chips
+half2: agent1 -1064 chips, agent2 +1064 chips
+Faults:
+  agent1 half1: thinking 1.22s of 8s (wall 4.38s), calls 3388, errors 0
+  agent1 half2: thinking 1.32s of 8s (wall 4.49s), calls 3405, errors 0
+  agent2 half1: thinking 0.37s of 8s (wall 3.14s), calls 3503, errors 0
+  agent2 half2: thinking 0.42s of 8s (wall 3.22s), calls 3522, errors 0
+Speed: 2000 hands in 15.55s (129 hands/s)
+
+============================================================
+  VERDICT: CHOP  (too close to call - half a win each)
+  Points: agent1 0.5, agent2 0.5
+============================================================
+RESULT: CHOP

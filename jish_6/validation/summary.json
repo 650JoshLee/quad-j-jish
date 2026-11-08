@@ -1,0 +1,17 @@
+{
+  "matches": 14,
+  "hands": 28000,
+  "wins": 3,
+  "draws": 7,
+  "losses": 4,
+  "points": 6.5,
+  "net_chips": 4909,
+  "errors": 0,
+  "forfeit_halves": 0,
+  "exhausted_banks": 0,
+  "max_charged_seconds": 1.334454,
+  "opponent_errors": 0,
+  "opponent_forfeits": 0,
+  "opponent_exhausted_banks": 0,
+  "max_startup_seconds": 1.4495870422106236
+}

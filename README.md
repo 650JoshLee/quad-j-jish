@@ -9,6 +9,7 @@ The default bot at the repository root is **jish_4**, the winner of our latest l
 | jish_3 | jish_new_2 | Higher-precision equity estimates |
 | jish_4 | jish_new_3 | Bet-selection correction; current default |
 | jish_5 | New independent version | Opponent-policy mixture and response tree |
+| jish_6 | Research-spec rebuild | Fresh PLO simulations and mixed range strategy; separate comparison version |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -52,3 +53,7 @@ See [the latest full tournament table](tournament-results/REPORT.md): 12 bots, 6
 Root code and model files match jish_4. Earlier strategies and data were retained. Individual bot notes explain their changes and historical tests. Docker verification requires Docker to be running: ./tools/check_build.sh. Local HTTP testing passed; a Docker build has not been certified.
 
 Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
+
+## Research-spec jish_6
+
+[jish_6](jish_6/README.md) was rebuilt from the supplied research, official guide, and clean starter, without earlier strategy code or trained models. Its final 14-opponent comparison covered 28,000 hands: 3 wins, 7 draws, 4 losses, with zero errors, forfeits, or exhausted time banks. It lost to jish_4, so **jish_4 remains the default**. See [source adaptations](jish_6/RULE_ADAPTATIONS.md), [provenance](jish_6/PROVENANCE.json), and [full results](jish_6/validation/REPORT.md). All 18 tests pass. Docker build verification remains unavailable on the local machine.

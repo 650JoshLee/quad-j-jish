@@ -1,0 +1,2 @@
+
+CHECK FAILED: Docker isn't running (start Docker Desktop, or the docker service).

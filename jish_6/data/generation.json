@@ -1,0 +1,11 @@
+{
+  "source": "Fresh simulations from the official evaluator and game rules only",
+  "suit_classes": 19998,
+  "trials_per_class": 8192,
+  "total_trials": 163823616,
+  "seed_formula": "(canonical_card_mask * 1009 + 611071) modulo 2147483647",
+  "mean": 0.5000661611557007,
+  "min": 0.1011962890625,
+  "max": 0.69451904296875,
+  "elapsed_seconds": 70.34555779118091
+}
