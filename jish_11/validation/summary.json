@@ -1,0 +1,90 @@
+{
+  "development_hands": 91200,
+  "confirmation_hands": 352000,
+  "official_HTTP_hands": 44000,
+  "total_hands": 487200,
+  "selected": {
+    "scores": {
+      "control": 2.884631944444444,
+      "sizes_only": 2.965298611111111,
+      "bluffs_only": 2.897097222222222,
+      "reraises_only": 2.8545347222222226,
+      "combined_light": 2.742770833333333,
+      "combined_full": 2.8158680555555557
+    },
+    "selected": "combined_full",
+    "size_learning": true,
+    "bluff_raises": true,
+    "reraise_blend": 0.75,
+    "agent_sha256": "52531f9366e8a8fc97c1db109fe0115749952cabb1503cde89d25188fbd60748"
+  },
+  "blocks": [
+    {
+      "seed": "jish11-fresh-confirm-0",
+      "balanced_chip_gain": -0.003569444444444375,
+      "balanced_point_gain": 0.025,
+      "real_chip_gain": -0.2243888888888889,
+      "stress_chip_gain": 0.21725000000000014
+    },
+    {
+      "seed": "jish11-fresh-confirm-1",
+      "balanced_chip_gain": -0.10087499999999988,
+      "balanced_point_gain": -0.002777777777777775,
+      "real_chip_gain": -0.25700000000000006,
+      "stress_chip_gain": 0.05525000000000031
+    },
+    {
+      "seed": "jish11-fresh-confirm-2",
+      "balanced_chip_gain": -0.04316111111111111,
+      "balanced_point_gain": -0.027777777777777776,
+      "real_chip_gain": -0.2382222222222222,
+      "stress_chip_gain": 0.15189999999999998
+    },
+    {
+      "seed": "jish11-fresh-confirm-3",
+      "balanced_chip_gain": -0.07534722222222232,
+      "balanced_point_gain": -0.05555555555555555,
+      "real_chip_gain": -0.16244444444444445,
+      "stress_chip_gain": 0.011749999999999821
+    }
+  ],
+  "chip_gain": -0.05573819444444442,
+  "chip_gain_95_seed_block_t_interval": [
+    -0.12263019959961213,
+    0.0111538107107233
+  ],
+  "point_gain": -0.015277777777777776,
+  "point_gain_95_seed_block_t_interval": [
+    -0.07006993807703725,
+    0.039514382521481706
+  ],
+  "real_chip_gain": -0.2205138888888889,
+  "stress_chip_gain": 0.10903750000000006,
+  "http_verdicts": {
+    "CHOP": 3,
+    "AGENT2_WIN": 3,
+    "AGENT1_WIN": 16
+  },
+  "http_errors": 0,
+  "http_forfeits": 0,
+  "http_exhausted_banks": 0,
+  "max_bank_seconds": 1.098935,
+  "max_startup_seconds": 1.3159217918291688,
+  "material_regressions": [],
+  "direct_losses": [
+    "jish_8"
+  ],
+  "direct_fallbacks": 0,
+  "promotion_checks": {
+    "positive_chip_interval": false,
+    "positive_point_interval": false,
+    "nonnegative_real_mean": false,
+    "nonnegative_stress_mean": true,
+    "no_material_regression": true,
+    "no_clear_direct_loss": false,
+    "runtime_clean": true
+  },
+  "default": "jish_4",
+  "status": "experimental",
+  "preserved_prior_files": 1362
+}

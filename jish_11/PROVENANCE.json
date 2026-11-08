@@ -1,0 +1,34 @@
+{
+  "base": "jish_4",
+  "team": "quad-j",
+  "bot": "jish_11",
+  "strategy_changes": [
+    "raise-size response learning",
+    "evaluate raises before folding",
+    "one opponent re-raise response estimate"
+  ],
+  "unchanged_files": {
+    "game.py": "bc00e3c2d1bf64cbd36bf5553dae218767f11b20f388e5c417d989919877f2db",
+    "evaluator.py": "e2a151a4c41828a035030f490c91b81015d04bc209abfb860ca3d0dce649e0b4",
+    "judge_engine.py": "fa7a7e3fb49c09588cfcf0930a8e3f6c189e419dbc54263ae7d53b953223d422",
+    "data/preflop.npy": "695d95bb00f198badf9bf888775343770b3d7717674a5cac7e95e133d3eef90d",
+    "requirements.txt": "254018ad62d56f87a89323b4b5c6d5a15c200ef27e85925d3ed57722fee43287",
+    "docker/Dockerfile.agent": "6baea809885f97fd50187d437009bb9ac38d5d0855e29e71dcf1194b4c2ce186",
+    "docker/Dockerfile.base": "d54f26ad44236c8a90308286e7de703d9e8c3916e6baa77d3a6fc3c56ab04d15"
+  },
+  "selected": {
+    "scores": {
+      "control": 2.884631944444444,
+      "sizes_only": 2.965298611111111,
+      "bluffs_only": 2.897097222222222,
+      "reraises_only": 2.8545347222222226,
+      "combined_light": 2.742770833333333,
+      "combined_full": 2.8158680555555557
+    },
+    "selected": "combined_full",
+    "size_learning": true,
+    "bluff_raises": true,
+    "reraise_blend": 0.75,
+    "agent_sha256": "52531f9366e8a8fc97c1db109fe0115749952cabb1503cde89d25188fbd60748"
+  }
+}

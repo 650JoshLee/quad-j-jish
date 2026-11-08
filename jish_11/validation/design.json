@@ -1,0 +1,43 @@
+{
+  "baseline": "jish_4",
+  "features": [
+    "raise-size response learning",
+    "evaluate raises before low-equity fold",
+    "explicit one opponent re-raise with our fold/call response"
+  ],
+  "development": {
+    "configurations": [
+      "control",
+      "sizes_only",
+      "bluffs_only",
+      "reraises_only",
+      "combined_light",
+      "combined_full"
+    ],
+    "seeds": 2,
+    "deals": 200,
+    "opponents": 19
+  },
+  "selection": "Highest equally weighted real/stress chip result between combined_light and combined_full; single features are diagnostic only. All three features remain enabled in released experiment.",
+  "confirmation": {
+    "fresh_seed_blocks": 4,
+    "deals": 1000,
+    "policies": [
+      "selected jish_11",
+      "jish_4"
+    ],
+    "opponents": 22,
+    "held_out_strategies": [
+      "size_folder",
+      "small_reraiser",
+      "bluff_then_fold"
+    ],
+    "primary_field": "19 development opponents, equally weighted real/stress; held-out strategies only for regression checks"
+  },
+  "official_HTTP": {
+    "deals": 1000,
+    "opponents": 22
+  },
+  "promotion": "Require positive 95% seed-block t intervals for balanced chip and point gain; nonnegative real-field and stress-field mean; no materially negative opponent change (upper per-opponent interval < -0.25 bb/deal), and no clear direct loss to jish_4 or jish_8. If not met retain default jish_4; push experiment regardless.",
+  "limitations": "Known opponents; fresh deals rather than unseen opponents. Per-opponent intervals exploratory and unadjusted."
+}

@@ -1,0 +1,379 @@
+{
+  "jish_4": {
+    "jish_11_mean": -0.20575,
+    "jish_4_mean": 0.0,
+    "change": -0.20575,
+    "change_ci95": [
+      -0.44535240333192294,
+      0.03385240333192294
+    ],
+    "jish_11_seed_block_ci95": [
+      -0.44535240333192294,
+      0.03385240333192294
+    ],
+    "verdicts": {
+      "CHOP": 4
+    },
+    "held_out_strategy": false
+  },
+  "main3": {
+    "jish_11_mean": -0.08725000000000001,
+    "jish_4_mean": 0.36625,
+    "change": -0.4535,
+    "change_ci95": [
+      -1.1688847421873643,
+      0.26188474218736435
+    ],
+    "jish_11_seed_block_ci95": [
+      -0.7902337978462333,
+      0.6157337978462332
+    ],
+    "verdicts": {
+      "CHOP": 4
+    },
+    "held_out_strategy": false
+  },
+  "main4": {
+    "jish_11_mean": -1.72125,
+    "jish_4_mean": -1.41225,
+    "change": -0.30900000000000005,
+    "change_ci95": [
+      -1.272614051288778,
+      0.6546140512887779
+    ],
+    "jish_11_seed_block_ci95": [
+      -2.6506617945698183,
+      -0.7918382054301817
+    ],
+    "verdicts": {
+      "LOSS": 4
+    },
+    "held_out_strategy": false
+  },
+  "quad2": {
+    "jish_11_mean": 2.779125,
+    "jish_4_mean": 2.719375,
+    "change": 0.05974999999999997,
+    "change_ci95": [
+      -0.42984771284377693,
+      0.5493477128437769
+    ],
+    "jish_11_seed_block_ci95": [
+      2.223071477403231,
+      3.335178522596769
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "pocketedge2": {
+    "jish_11_mean": 1.408375,
+    "jish_4_mean": 1.620125,
+    "change": -0.21174999999999997,
+    "change_ci95": [
+      -0.425018922964126,
+      0.0015189229641260626
+    ],
+    "jish_11_seed_block_ci95": [
+      0.8908525009232856,
+      1.9258974990767141
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "pokerbot2": {
+    "jish_11_mean": 2.126625,
+    "jish_4_mean": 1.9015,
+    "change": 0.22512500000000008,
+    "change_ci95": [
+      -0.5126257205240474,
+      0.9628757205240475
+    ],
+    "jish_11_seed_block_ci95": [
+      1.5530685558207633,
+      2.700181444179237
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "jish_2": {
+    "jish_11_mean": 0.08075,
+    "jish_4_mean": 0.13674999999999998,
+    "change": -0.055999999999999994,
+    "change_ci95": [
+      -0.3483754371264423,
+      0.23637543712644232
+    ],
+    "jish_11_seed_block_ci95": [
+      -0.5131655597049981,
+      0.6746655597049981
+    ],
+    "verdicts": {
+      "CHOP": 4
+    },
+    "held_out_strategy": false
+  },
+  "jish_6": {
+    "jish_11_mean": 0.84875,
+    "jish_4_mean": 1.29525,
+    "change": -0.4465,
+    "change_ci95": [
+      -0.9909731457413994,
+      0.09797314574139937
+    ],
+    "jish_11_seed_block_ci95": [
+      0.40134433054970003,
+      1.2961556694503
+    ],
+    "verdicts": {
+      "WIN": 3,
+      "CHOP": 1
+    },
+    "held_out_strategy": false
+  },
+  "pot": {
+    "jish_11_mean": 4.816125,
+    "jish_4_mean": 4.834375,
+    "change": -0.018249999999999877,
+    "change_ci95": [
+      -0.1368459513566288,
+      0.10034595135662906
+    ],
+    "jish_11_seed_block_ci95": [
+      3.477480466024963,
+      6.154769533975038
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "station": {
+    "jish_11_mean": 11.654125,
+    "jish_4_mean": 11.661875,
+    "change": -0.007749999999999702,
+    "change_ci95": [
+      -0.03406939533628723,
+      0.018569395336287826
+    ],
+    "jish_11_seed_block_ci95": [
+      10.412193189663448,
+      12.896056810336553
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "nit": {
+    "jish_11_mean": 1.689125,
+    "jish_4_mean": 1.759625,
+    "change": -0.07050000000000001,
+    "change_ci95": [
+      -0.2665306844455908,
+      0.1255306844455908
+    ],
+    "jish_11_seed_block_ci95": [
+      1.526537892418407,
+      1.851712107581593
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "pressure": {
+    "jish_11_mean": 0.422,
+    "jish_4_mean": -0.04675,
+    "change": 0.46875,
+    "change_ci95": [
+      -0.2181135050729981,
+      1.155613505072998
+    ],
+    "jish_11_seed_block_ci95": [
+      -0.6282804100770478,
+      1.4722804100770477
+    ],
+    "verdicts": {
+      "WIN": 1,
+      "CHOP": 3
+    },
+    "held_out_strategy": false
+  },
+  "trapper": {
+    "jish_11_mean": 2.662875,
+    "jish_4_mean": 2.0993749999999998,
+    "change": 0.5635000000000001,
+    "change_ci95": [
+      0.3506227276397287,
+      0.7763772723602715
+    ],
+    "jish_11_seed_block_ci95": [
+      2.0282504086627697,
+      3.2974995913372305
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "polar": {
+    "jish_11_mean": 3.95275,
+    "jish_4_mean": 3.668875,
+    "change": 0.2838750000000001,
+    "change_ci95": [
+      0.015997276748998146,
+      0.551752723251002
+    ],
+    "jish_11_seed_block_ci95": [
+      3.089386546341038,
+      4.816113453658962
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "switcher": {
+    "jish_11_mean": 3.064625,
+    "jish_4_mean": 2.7415000000000003,
+    "change": 0.323125,
+    "change_ci95": [
+      -0.010046867049735397,
+      0.6562968670497353
+    ],
+    "jish_11_seed_block_ci95": [
+      0.7459409100123344,
+      5.383309089987666
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "random": {
+    "jish_11_mean": 9.910875,
+    "jish_4_mean": 9.723749999999999,
+    "change": 0.18712500000000043,
+    "change_ci95": [
+      -0.9612627766789923,
+      1.3355127766789932
+    ],
+    "jish_11_seed_block_ci95": [
+      9.38041449298384,
+      10.441335507016161
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "delayed_pot": {
+    "jish_11_mean": 11.631374999999998,
+    "jish_4_mean": 12.172875000000001,
+    "change": -0.541500000000001,
+    "change_ci95": [
+      -1.0358038530949185,
+      -0.04719614690508339
+    ],
+    "jish_11_seed_block_ci95": [
+      8.94802814751527,
+      14.314721852484727
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "station_maniac": {
+    "jish_11_mean": 8.946625000000001,
+    "jish_4_mean": 9.044625,
+    "change": -0.09799999999999942,
+    "change_ci95": [
+      -0.24186276593851133,
+      0.04586276593851249
+    ],
+    "jish_11_seed_block_ci95": [
+      7.788885148394155,
+      10.104364851605846
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": false
+  },
+  "jish_8": {
+    "jish_11_mean": -0.33699999999999997,
+    "jish_4_mean": 0.25,
+    "change": -0.587,
+    "change_ci95": [
+      -1.4278396141473841,
+      0.2538396141473843
+    ],
+    "jish_11_seed_block_ci95": [
+      -0.666404971874507,
+      -0.007595028125492953
+    ],
+    "verdicts": {
+      "CHOP": 3,
+      "LOSS": 1
+    },
+    "held_out_strategy": false
+  },
+  "size_folder": {
+    "jish_11_mean": 5.524875,
+    "jish_4_mean": 0.141375,
+    "change": 5.3835,
+    "change_ci95": [
+      4.946224272932321,
+      5.820775727067678
+    ],
+    "jish_11_seed_block_ci95": [
+      5.050867465932955,
+      5.998882534067045
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": true
+  },
+  "small_reraiser": {
+    "jish_11_mean": 11.638375,
+    "jish_4_mean": 11.634625,
+    "change": 0.003750000000000142,
+    "change_ci95": [
+      -0.2920160397036255,
+      0.2995160397036258
+    ],
+    "jish_11_seed_block_ci95": [
+      10.373461452954714,
+      12.903288547045285
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": true
+  },
+  "bluff_then_fold": {
+    "jish_11_mean": 8.063875,
+    "jish_4_mean": 6.296625,
+    "change": 1.7672500000000004,
+    "change_ci95": [
+      1.6896503358020025,
+      1.8448496641979983
+    ],
+    "jish_11_seed_block_ci95": [
+      7.754175678223252,
+      8.373574321776747
+    ],
+    "verdicts": {
+      "WIN": 4
+    },
+    "held_out_strategy": true
+  }
+}

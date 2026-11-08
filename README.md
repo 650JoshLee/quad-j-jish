@@ -14,6 +14,7 @@ The default bot at the repository root is **jish_4**, retained after subsequent 
 | jish_8 | Extreme-opponent optimization copy of jish_4 | Recency-weighted action learning and revised range inference; experimental |
 | jish_9 | Broad-field optimization copy of jish_4 | Evidence-gated preflop raises; experimental |
 | jish_10 | Independent Slumbot-inspired experiment | Current-street regret-matching solver; experimental, weaker in validation |
+| jish_11 | Targeted jish_4 improvements | Size-aware responses, bluff raises, and one re-raise branch; experimental |
 
 All bots identify their team as quad-j and display their numbered bot name.
 
@@ -77,3 +78,7 @@ Official rules: https://github.com/tamu-datathon-org/heads-up-bundle
 ## Independent jish_10 solver experiment
 
 [jish_10](jish_10/README.md) independently applies Slumbot-inspired regret minimization to a small current-street Omaha abstraction. **235,600 test hands** included three development configurations, paired fresh comparisons against 19 opponents, and 19 official HTTP matches. Its balanced field performance was **2.6238 bb/duplicate deal worse than jish_4**, with a 95% seed-block interval of [-3.7140, -1.5337]. It lost both fresh direct matches to jish_4 and both to jish_8. Official HTTP results were 7 wins, 6 draws, 6 losses, with zero errors, forfeits, or exhausted banks. **jish_4 remains the default; jish_10 is experimental.** All 1,121 checked files in the prior local bots were preserved. See [results](jish_10/validation/REPORT.md) and [research/limitations](jish_10/RESEARCH_NOTES.md). No Slumbot policy or older jish strategy/model was copied.
+
+## jish_11 targeted response-model experiment
+
+[jish_11](jish_11/README.md) copies jish_4 and adds size-conditioned response learning, evaluates raises before folding weak hands, and models one opponent re-raise followed by our fold/call response. **487,200 test hands** covered six development variants, four fresh paired blocks against 22 opponents, and 22 official HTTP matches. Balanced field change versus jish_4 was -0.0557 bb/duplicate deal, 95% interval [-0.1226, +0.0112]; broad improvement is unproven. Held-out size-sensitive folding and bet-then-fold opponents improved by +5.3834 and +1.7673 bb/deal respectively, while real-field performance declined on average. All 31 tests passed. HTTP outcomes: 16 wins, 3 draws, 3 losses, with zero errors, forfeits, or exhausted banks. All 1,362 checked prior local bot files were preserved. **jish_4 remains the default; jish_11 is experimental.** See [full comparison](jish_11/validation/REPORT.md) and [strategy limitations](jish_11/BOT_NOTES.md).

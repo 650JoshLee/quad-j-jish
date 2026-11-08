@@ -1,0 +1,15 @@
+{
+  "scores": {
+    "control": 2.884631944444444,
+    "sizes_only": 2.965298611111111,
+    "bluffs_only": 2.897097222222222,
+    "reraises_only": 2.8545347222222226,
+    "combined_light": 2.742770833333333,
+    "combined_full": 2.8158680555555557
+  },
+  "selected": "combined_full",
+  "size_learning": true,
+  "bluff_raises": true,
+  "reraise_blend": 0.75,
+  "agent_sha256": "52531f9366e8a8fc97c1db109fe0115749952cabb1503cde89d25188fbd60748"
+}
